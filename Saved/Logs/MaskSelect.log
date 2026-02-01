@@ -15546,3 +15546,1034 @@ Script call stack:
 [2026.02.01-19.20.19:396][764]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2026.02.01-19.20.19:399][764]LogUObjectHash: Compacting FUObjectHashTables data took   1.02ms
 [2026.02.01-19.20.19:441][765]LogPlayLevel: Display: Destroying online subsystem :Context_118
+[2026.02.01-19.20.55:984][ 89]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-19.20.55:989][ 89]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-19.20.55:989][ 89]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-19.20.55:990][ 89]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 841 us (total: 55.581 ms)
+[2026.02.01-19.20.55:990][ 89]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-19.20.55:991][ 89]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-19.20.55:996][ 89]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-19.20.55:996][ 89]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 711 us (total: 72.863 ms)
+[2026.02.01-19.20.55:996][ 89]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006243s)
+[2026.02.01-19.20.55:996][ 89]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.006289s)
+[2026.02.01-19.20.56:020][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.02.01-19.20.56:022][ 89]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-19.20.56:024][ 89]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-19.20.56:024][ 89]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-19.20.56:024][ 89]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-19.20.56:024][ 89]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-19.20.56:025][ 89]LogWorldPartition: Display: WorldPartition initialize took 1.053 ms (total: 421.935 ms)
+[2026.02.01-19.20.56:025][ 89]LogPlayLevel: PIE: World Init took: (0.002724s)
+[2026.02.01-19.20.56:026][ 89]LogAudio: Display: Creating Audio Device:                 Id: 106, Scope: Unique, Realtime: True
+[2026.02.01-19.20.56:026][ 89]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-19.20.56:026][ 89]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-19.20.56:026][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-19.20.56:026][ 89]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-19.20.56:026][ 89]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-19.20.56:026][ 89]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-19.20.56:026][ 89]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-19.20.56:026][ 89]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-19.20.56:026][ 89]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-19.20.56:026][ 89]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-19.20.56:026][ 89]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-19.20.56:028][ 89]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-19.20.56:042][ 89]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-19.20.56:042][ 89]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-19.20.56:042][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-19.20.56:042][ 89]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-19.20.56:042][ 89]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=106
+[2026.02.01-19.20.56:042][ 89]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=106
+[2026.02.01-19.20.56:045][ 89]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=106
+[2026.02.01-19.20.56:045][ 89]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=106
+[2026.02.01-19.20.56:045][ 89]LogInit: FAudioDevice initialized with ID 106.
+[2026.02.01-19.20.56:045][ 89]LogAudio: Display: Audio Device (ID: 106) registered with world 'Lvl_TopDown'.
+[2026.02.01-19.20.56:045][ 89]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 106
+[2026.02.01-19.20.56:048][ 89]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-19.20.56:049][ 89]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-14.20.56
+[2026.02.01-19.20.56:050][ 89]LogWorld: Bringing up level for play took: 0.001549
+[2026.02.01-19.20.56:052][ 89]LogOnline: OSS: Created online subsystem instance for: :Context_119
+[2026.02.01-19.20.56:053][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:054][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:055][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:055][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:056][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:056][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:056][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:058][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:058][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:059][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:059][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:060][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:060][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:061][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:062][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:062][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:063][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:063][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:064][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:064][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:065][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:065][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:066][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:066][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:067][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:067][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:068][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:068][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:069][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:069][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:070][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:070][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:071][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:071][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:072][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:072][ 89]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.20.56:076][ 89]PIE: Server logged in
+[2026.02.01-19.20.56:078][ 89]PIE: Play in editor total start time 0.089 seconds.
+[2026.02.01-19.20.56:128][ 90]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-19.20.59:709][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-19.20.59:709][300]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-19.20.59:709][300]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-19.20.59:714][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-19.20.59:714][300]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-19.20.59:717][300]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-19.20.59:720][300]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-19.20.59:738][300]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-19.20.59:738][300]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 106
+[2026.02.01-19.20.59:738][300]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=106, StreamState=4
+[2026.02.01-19.20.59:740][300]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=106, StreamState=2
+[2026.02.01-19.20.59:745][300]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.01-19.20.59:783][301]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2026.02.01-19.21.33:730][314]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.02.01-19.21.33:750][314]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.21.33:826][314]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/TileManager] ([2] browsable assets)...
+[2026.02.01-19.21.33:826][314]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/TileManager]
+[2026.02.01-19.21.33:826][314]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/TileManager" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset" SILENT=true
+[2026.02.01-19.21.33:875][314]LogSavePackage: Moving output files for package: /Game/Actors/TileManager
+[2026.02.01-19.21.33:876][314]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileManager73FA03CB467D895028632BB52D24EAAC.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset'
+[2026.02.01-19.21.33:884][314]LogFileHelpers: InternalPromptForCheckoutAndSave took 132.903 ms (total: 15.7 sec)
+[2026.02.01-19.21.33:964][314]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.21.33:964][314]LogContentValidation: Enabled validators:
+[2026.02.01-19.21.33:964][314]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.21.33:964][314]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.21.33:964][314]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.21.33:964][314]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.21.33:964][314]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.21.33:964][314]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.21.33:964][314]AssetCheck: /Game/Actors/TileManager Validating asset
+[2026.02.01-19.21.38:570][583]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.02.01-19.21.38:589][583]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.21.38:661][583]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/TileManager] ([2] browsable assets)...
+[2026.02.01-19.21.38:661][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/TileManager]
+[2026.02.01-19.21.38:661][583]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/TileManager" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset" SILENT=true
+[2026.02.01-19.21.38:706][583]LogSavePackage: Moving output files for package: /Game/Actors/TileManager
+[2026.02.01-19.21.38:706][583]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileManager971D35B7415AAA3CEEB961859A58F27F.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset'
+[2026.02.01-19.21.38:713][583]LogFileHelpers: InternalPromptForCheckoutAndSave took 124.899 ms (total: 15.8 sec)
+[2026.02.01-19.21.38:798][583]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.21.38:798][583]LogContentValidation: Enabled validators:
+[2026.02.01-19.21.38:798][583]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.21.38:798][583]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.21.38:798][583]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.21.38:798][583]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.21.38:798][583]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.21.38:798][583]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.21.38:798][583]AssetCheck: /Game/Actors/TileManager Validating asset
+[2026.02.01-19.21.50:845][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.01-19.21.50:865][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.21.50:930][297]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/TileManager] ([2] browsable assets)...
+[2026.02.01-19.21.50:930][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/TileManager]
+[2026.02.01-19.21.50:930][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/TileManager" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset" SILENT=true
+[2026.02.01-19.21.50:974][297]LogSavePackage: Moving output files for package: /Game/Actors/TileManager
+[2026.02.01-19.21.50:974][297]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileManagerF1F57A684D8E6A38D5AEE1A92EF7864D.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset'
+[2026.02.01-19.21.50:982][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 116.950 ms (total: 16.0 sec)
+[2026.02.01-19.21.51:079][297]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.21.51:079][297]LogContentValidation: Enabled validators:
+[2026.02.01-19.21.51:079][297]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.21.51:079][297]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.21.51:079][297]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.21.51:079][297]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.21.51:079][297]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.21.51:079][297]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.21.51:079][297]AssetCheck: /Game/Actors/TileManager Validating asset
+[2026.02.01-19.24.16:298][918]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.02.01-19.24.16:374][918]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.24.16:444][918]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-19.24.16:543][918]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-19.24.16:543][918]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-19.24.16:543][918]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset" SILENT=true
+[2026.02.01-19.24.16:565][918]LogSavePackage: Moving output files for package: /Game/Actors/Base_Tile
+[2026.02.01-19.24.16:565][918]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_Tile5982FFFD46A04839C9D760994812604A.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset'
+[2026.02.01-19.24.16:575][918]LogFileHelpers: InternalPromptForCheckoutAndSave took 201.072 ms (total: 16.2 sec)
+[2026.02.01-19.24.16:653][918]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.24.16:654][918]LogContentValidation: Enabled validators:
+[2026.02.01-19.24.16:654][918]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.24.16:654][918]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.24.16:654][918]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.24.16:654][918]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.24.16:654][918]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.24.16:654][918]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.24.16:654][918]AssetCheck: /Game/Actors/Base_Tile Validating asset
+[2026.02.01-19.25.44:834][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.02.01-19.25.44:838][ 92]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/TopDown/Lvl_TopDown' took 0.024
+[2026.02.01-19.25.44:838][ 92]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-19.25.44:939][ 92]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-19.25.44:939][ 92]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-19.25.44:939][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Saved/Autosaves/Game/Actors/Base_Tile_Auto5.uasset" SILENT=false AUTOSAVING=true
+[2026.02.01-19.25.44:959][ 92]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Actors/Base_Tile_Auto5
+[2026.02.01-19.25.44:959][ 92]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_Tile_Auto55F5801B74D732715728FB3AFB7F9454F.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Saved/Autosaves/Game/Actors/Base_Tile_Auto5.uasset'
+[2026.02.01-19.25.44:959][ 92]LogFileHelpers: Auto-saving content packages took 0.121
+[2026.02.01-19.25.47:404][238]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 8628.653320
+[2026.02.01-19.25.47:587][249]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.01-19.25.47:587][249]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 8628.819336, Update Interval: 358.156067
+[2026.02.01-19.25.50:714][437]LogEditorTransaction: Undo Add Node
+[2026.02.01-19.25.50:888][440]LogEditorTransaction: Undo Create Pin Link
+[2026.02.01-19.25.51:094][444]LogEditorTransaction: Undo Create Pin Link
+[2026.02.01-19.25.51:262][448]LogEditorTransaction: Undo Break Pin Links
+[2026.02.01-19.25.51:460][456]LogEditorTransaction: Undo Add Node
+[2026.02.01-19.25.51:638][463]LogEditorTransaction: Undo Delete current selection
+[2026.02.01-19.25.51:816][470]LogEditorTransaction: Undo Add Node
+[2026.02.01-19.25.51:994][477]LogEditorTransaction: Undo Move Nodes
+[2026.02.01-19.25.52:185][485]LogEditorTransaction: Undo Move Node
+[2026.02.01-19.25.52:378][493]LogEditorTransaction: Undo Add Node
+[2026.02.01-19.25.52:552][500]LogEditorTransaction: Undo Move Node
+[2026.02.01-19.25.52:729][507]LogEditorTransaction: Undo Add Node
+[2026.02.01-19.25.52:921][515]LogEditorTransaction: Undo Move Node
+[2026.02.01-19.25.53:129][524]LogEditorTransaction: Undo Create Pin Link
+[2026.02.01-19.25.53:336][533]LogEditorTransaction: Undo Move Node
+[2026.02.01-19.25.53:494][539]LogEditorTransaction: Undo Delete current selection
+[2026.02.01-19.25.53:687][547]LogEditorTransaction: Undo Create Pin Link
+[2026.02.01-19.25.53:863][554]LogEditorTransaction: Undo Rename Variable
+[2026.02.01-19.25.54:057][562]LogEditorTransaction: Undo Promote To Variable
+[2026.02.01-19.25.56:701][717]LogEditorTransaction: Redo Promote To Variable
+[2026.02.01-19.25.57:327][737]LogEditorTransaction: Undo Promote To Variable
+[2026.02.01-19.25.57:638][752]LogEditorTransaction: Undo Move Node
+[2026.02.01-19.26.01:722][988]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.02.01-19.26.01:780][988]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.26.01:853][988]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-19.26.01:949][988]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-19.26.01:949][988]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-19.26.01:949][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset" SILENT=true
+[2026.02.01-19.26.01:966][988]LogSavePackage: Moving output files for package: /Game/Actors/Base_Tile
+[2026.02.01-19.26.01:966][988]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_Tile44A3A07E4C78AEA418F1358021316193.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset'
+[2026.02.01-19.26.01:975][988]LogFileHelpers: InternalPromptForCheckoutAndSave took 195.547 ms (total: 16.4 sec)
+[2026.02.01-19.26.02:050][988]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.26.02:050][988]LogContentValidation: Enabled validators:
+[2026.02.01-19.26.02:050][988]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.26.02:050][988]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.26.02:050][988]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.26.02:050][988]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.26.02:050][988]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.26.02:050][988]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.26.02:051][988]AssetCheck: /Game/Actors/Base_Tile Validating asset
+[2026.02.01-19.26.06:432][170]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.02.01-19.26.08:820][170]LogSlate: Window 'Save Content' being destroyed
+[2026.02.01-19.26.14:870][532]LogEditorTransaction: Redo Move Node
+[2026.02.01-19.26.17:156][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.02.01-19.26.19:749][785]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-19.26.19:753][785]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-19.26.19:753][785]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-19.26.19:753][785]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 504 us (total: 56.086 ms)
+[2026.02.01-19.26.19:753][785]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-19.26.19:753][785]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-19.26.19:757][785]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-19.26.19:758][785]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 666 us (total: 73.530 ms)
+[2026.02.01-19.26.19:758][785]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003972s)
+[2026.02.01-19.26.19:758][785]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.004000s)
+[2026.02.01-19.26.19:775][785]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.02.01-19.26.19:779][785]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-19.26.19:781][785]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-19.26.19:781][785]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-19.26.19:781][785]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-19.26.19:781][785]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-19.26.19:782][785]LogWorldPartition: Display: WorldPartition initialize took 903 us (total: 422.838 ms)
+[2026.02.01-19.26.19:782][785]LogPlayLevel: PIE: World Init took: (0.002499s)
+[2026.02.01-19.26.19:782][785]LogAudio: Display: Creating Audio Device:                 Id: 107, Scope: Unique, Realtime: True
+[2026.02.01-19.26.19:782][785]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-19.26.19:782][785]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-19.26.19:782][785]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-19.26.19:782][785]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-19.26.19:782][785]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-19.26.19:782][785]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-19.26.19:782][785]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-19.26.19:782][785]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-19.26.19:782][785]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-19.26.19:782][785]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-19.26.19:782][785]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-19.26.19:784][785]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-19.26.19:798][785]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-19.26.19:798][785]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-19.26.19:798][785]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-19.26.19:798][785]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-19.26.19:799][785]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=107
+[2026.02.01-19.26.19:799][785]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=107
+[2026.02.01-19.26.19:801][785]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=107
+[2026.02.01-19.26.19:801][785]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=107
+[2026.02.01-19.26.19:801][785]LogInit: FAudioDevice initialized with ID 107.
+[2026.02.01-19.26.19:801][785]LogAudio: Display: Audio Device (ID: 107) registered with world 'Lvl_TopDown'.
+[2026.02.01-19.26.19:801][785]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 107
+[2026.02.01-19.26.19:804][785]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-19.26.19:806][785]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-14.26.19
+[2026.02.01-19.26.19:806][785]LogWorld: Bringing up level for play took: 0.001607
+[2026.02.01-19.26.19:809][785]LogOnline: OSS: Created online subsystem instance for: :Context_120
+[2026.02.01-19.26.19:810][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:811][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:812][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:812][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:813][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:813][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:814][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:815][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:816][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:816][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:816][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:817][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:818][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:818][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:819][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:820][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:820][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:821][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:821][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:822][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:822][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:823][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:823][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:824][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:824][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:825][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:826][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:826][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:827][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:828][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:828][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:829][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:829][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:830][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:830][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:831][785]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.26.19:834][785]PIE: Server logged in
+[2026.02.01-19.26.19:836][785]PIE: Play in editor total start time 0.084 seconds.
+[2026.02.01-19.26.19:887][786]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-19.26.31:149][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-19.26.31:149][457]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-19.26.31:149][457]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-19.26.31:155][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-19.26.31:155][457]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-19.26.31:159][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-19.26.31:163][457]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-19.26.31:182][457]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.01-19.26.31:182][457]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 107
+[2026.02.01-19.26.31:182][457]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=107, StreamState=4
+[2026.02.01-19.26.31:184][457]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=107, StreamState=2
+[2026.02.01-19.26.31:189][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-19.26.31:192][457]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.02.01-19.26.31:230][458]LogPlayLevel: Display: Destroying online subsystem :Context_120
+[2026.02.01-19.26.49:385][536]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.26.49:450][536]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Essentials/S_TileInfo] ([1] browsable assets)...
+[2026.02.01-19.26.49:450][536]OBJ SavePackage: Finished generating thumbnails for package [/Game/Essentials/S_TileInfo]
+[2026.02.01-19.26.49:450][536]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Essentials/S_TileInfo" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_TileInfo.uasset" SILENT=true
+[2026.02.01-19.26.49:460][536]LogSavePackage: Moving output files for package: /Game/Essentials/S_TileInfo
+[2026.02.01-19.26.49:460][536]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/S_TileInfoC0B75AF34F86E2B7930E5ABB77BF3737.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_TileInfo.uasset'
+[2026.02.01-19.26.49:468][536]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.985 ms (total: 16.4 sec)
+[2026.02.01-19.26.49:543][536]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.26.49:543][536]LogContentValidation: Enabled validators:
+[2026.02.01-19.26.49:543][536]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.26.49:543][536]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.26.49:543][536]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.26.49:543][536]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.26.49:543][536]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.26.49:543][536]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.26.49:543][536]AssetCheck: /Game/Essentials/S_TileInfo Validating asset
+[2026.02.01-19.26.57:472][  6]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.02.01-19.26.57:521][  6]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.26.57:599][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Interfaces/BPI_Tile] ([2] browsable assets)...
+[2026.02.01-19.26.57:600][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/Interfaces/BPI_Tile]
+[2026.02.01-19.26.57:600][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interfaces/BPI_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Interfaces/BPI_Tile.uasset" SILENT=true
+[2026.02.01-19.26.57:612][  6]LogSavePackage: Moving output files for package: /Game/Interfaces/BPI_Tile
+[2026.02.01-19.26.57:612][  6]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/BPI_Tile681F742348493D83ADEAB186DF56AB96.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Interfaces/BPI_Tile.uasset'
+[2026.02.01-19.26.57:613][  6]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/TileManager] ([2] browsable assets)...
+[2026.02.01-19.26.57:613][  6]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/TileManager]
+[2026.02.01-19.26.57:613][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/TileManager" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset" SILENT=true
+[2026.02.01-19.26.57:659][  6]LogSavePackage: Moving output files for package: /Game/Actors/TileManager
+[2026.02.01-19.26.57:659][  6]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileManagerB8441E0E4D6FA6A09CB82A9D2D583390.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset'
+[2026.02.01-19.26.57:668][  6]LogFileHelpers: InternalPromptForCheckoutAndSave took 146.504 ms (total: 16.6 sec)
+[2026.02.01-19.26.57:753][  6]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.01-19.26.57:753][  6]LogContentValidation: Enabled validators:
+[2026.02.01-19.26.57:753][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.26.57:753][  6]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.26.57:753][  6]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.26.57:753][  6]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.26.57:753][  6]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.26.57:753][  6]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.26.57:753][  6]AssetCheck: /Game/Interfaces/BPI_Tile Validating asset
+[2026.02.01-19.26.57:754][  6]AssetCheck: /Game/Actors/TileManager Validating asset
+[2026.02.01-19.27.03:895][366]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.02.01-19.27.07:280][366]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.01-19.27.20:785][166]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.02.01-19.27.20:833][166]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.27.20:888][166]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-19.27.20:999][166]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-19.27.20:999][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-19.27.20:999][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset" SILENT=true
+[2026.02.01-19.27.21:017][166]LogSavePackage: Moving output files for package: /Game/Actors/Base_Tile
+[2026.02.01-19.27.21:018][166]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_Tile07D0CE3A45AD54B14CEDA788F10B5D40.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset'
+[2026.02.01-19.27.21:018][166]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-19.27.21:032][166]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-19.27.21:032][166]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-19.27.21:032][166]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-19.27.21:051][166]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-19.27.21:051][166]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Tile84B36DB0485F943BEA347DBE05058C57.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-19.27.21:061][166]LogFileHelpers: InternalPromptForCheckoutAndSave took 228.528 ms (total: 16.8 sec)
+[2026.02.01-19.27.21:127][166]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.01-19.27.21:127][166]LogContentValidation: Enabled validators:
+[2026.02.01-19.27.21:127][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.27.21:127][166]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.27.21:127][166]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.27.21:128][166]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.27.21:128][166]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.27.21:128][166]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.27.21:128][166]AssetCheck: /Game/Actors/Base_Tile Validating asset
+[2026.02.01-19.27.21:128][166]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-19.27.24:248][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
+[2026.02.01-19.27.26:451][346]LogSlate: Window 'Delete Assets' being destroyed
+[2026.02.01-19.27.26:689][346]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Essentials/S_ColorInfo.S_ColorInfo
+	Asset Type: UserDefinedStruct
+[2026.02.01-19.27.27:126][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2026.02.01-19.27.27:145][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2026.02.01-19.27.27:179][346]LogUObjectHash: Compacting FUObjectHashTables data took   0.40ms
+[2026.02.01-19.27.29:091][454]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-19.27.29:095][454]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-19.27.29:095][454]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-19.27.29:095][454]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 455 us (total: 56.541 ms)
+[2026.02.01-19.27.29:095][454]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-19.27.29:095][454]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-19.27.29:099][454]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-19.27.29:100][454]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 669 us (total: 74.200 ms)
+[2026.02.01-19.27.29:100][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004008s)
+[2026.02.01-19.27.29:100][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.004038s)
+[2026.02.01-19.27.29:127][454]LogUObjectHash: Compacting FUObjectHashTables data took   1.13ms
+[2026.02.01-19.27.29:130][454]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-19.27.29:132][454]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-19.27.29:132][454]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-19.27.29:132][454]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-19.27.29:132][454]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-19.27.29:133][454]LogWorldPartition: Display: WorldPartition initialize took 1.009 ms (total: 423.848 ms)
+[2026.02.01-19.27.29:133][454]LogPlayLevel: PIE: World Init took: (0.002505s)
+[2026.02.01-19.27.29:134][454]LogAudio: Display: Creating Audio Device:                 Id: 108, Scope: Unique, Realtime: True
+[2026.02.01-19.27.29:134][454]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-19.27.29:134][454]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-19.27.29:134][454]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-19.27.29:134][454]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-19.27.29:134][454]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-19.27.29:134][454]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-19.27.29:134][454]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-19.27.29:134][454]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-19.27.29:134][454]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-19.27.29:134][454]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-19.27.29:134][454]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-19.27.29:135][454]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-19.27.29:148][454]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-19.27.29:149][454]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-19.27.29:149][454]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-19.27.29:149][454]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-19.27.29:149][454]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=108
+[2026.02.01-19.27.29:149][454]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=108
+[2026.02.01-19.27.29:151][454]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=108
+[2026.02.01-19.27.29:151][454]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=108
+[2026.02.01-19.27.29:151][454]LogInit: FAudioDevice initialized with ID 108.
+[2026.02.01-19.27.29:151][454]LogAudio: Display: Audio Device (ID: 108) registered with world 'Lvl_TopDown'.
+[2026.02.01-19.27.29:151][454]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 108
+[2026.02.01-19.27.29:155][454]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-19.27.29:156][454]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-14.27.29
+[2026.02.01-19.27.29:156][454]LogWorld: Bringing up level for play took: 0.001543
+[2026.02.01-19.27.29:159][454]LogOnline: OSS: Created online subsystem instance for: :Context_121
+[2026.02.01-19.27.29:160][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:161][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:161][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:162][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:162][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:163][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:163][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:164][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:164][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:165][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:166][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:166][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:166][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:167][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:167][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:168][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:169][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:169][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:170][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:170][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:171][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:171][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:172][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:172][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:173][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:173][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:174][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:174][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:175][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:175][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:176][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:177][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:178][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:178][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:179][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:179][454]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.27.29:183][454]PIE: Server logged in
+[2026.02.01-19.27.29:184][454]PIE: Play in editor total start time 0.089 seconds.
+[2026.02.01-19.27.29:235][455]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-19.27.42:079][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-19.27.42:079][222]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-19.27.42:079][222]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-19.27.42:084][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-19.27.42:084][222]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-19.27.42:088][222]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-19.27.42:090][222]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-19.27.42:108][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-19.27.42:108][222]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 108
+[2026.02.01-19.27.42:108][222]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=108, StreamState=4
+[2026.02.01-19.27.42:110][222]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=108, StreamState=2
+[2026.02.01-19.27.42:116][222]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.02.01-19.27.42:154][223]LogPlayLevel: Display: Destroying online subsystem :Context_121
+[2026.02.01-19.28.02:802][ 68]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.02.01-19.28.11:688][558]LogContentBrowser: Deferred new asset file creation: NewUserDefinedStruct
+[2026.02.01-19.28.11:696][558]LogContentBrowser: Creating deferred item: NewUserDefinedStruct
+[2026.02.01-19.28.11:708][559]LogContentBrowser: Renaming the item being created (Deferred Item: NewUserDefinedStruct).
+[2026.02.01-19.28.17:749][922]LogContentBrowser: Attempting asset rename: NewUserDefinedStruct -> S_ColorInfo
+[2026.02.01-19.28.17:784][922]LogContentBrowser: End creating deferred item NewUserDefinedStruct
+[2026.02.01-19.28.18:162][944]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Essentials/S_ColorInfo.S_ColorInfo
+[2026.02.01-19.28.19:702][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.28.19:764][ 19]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Essentials/S_ColorInfo] ([1] browsable assets)...
+[2026.02.01-19.28.19:764][ 19]OBJ SavePackage: Finished generating thumbnails for package [/Game/Essentials/S_ColorInfo]
+[2026.02.01-19.28.19:764][ 19]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Essentials/S_ColorInfo" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_ColorInfo.uasset" SILENT=true
+[2026.02.01-19.28.19:772][ 19]LogSavePackage: Moving output files for package: /Game/Essentials/S_ColorInfo
+[2026.02.01-19.28.19:773][ 19]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/S_ColorInfo0962E0C34F1E4B412687C19801B912E7.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_ColorInfo.uasset'
+[2026.02.01-19.28.19:782][ 19]LogFileHelpers: InternalPromptForCheckoutAndSave took 78.382 ms (total: 16.9 sec)
+[2026.02.01-19.28.19:855][ 19]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.28.19:855][ 19]LogContentValidation: Enabled validators:
+[2026.02.01-19.28.19:855][ 19]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.28.19:855][ 19]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.28.19:855][ 19]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.28.19:855][ 19]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.28.19:855][ 19]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.28.19:855][ 19]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.28.19:855][ 19]AssetCheck: /Game/Essentials/S_ColorInfo Validating asset
+[2026.02.01-19.28.49:008][745]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.28.49:075][745]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Essentials/S_ColorInfo] ([1] browsable assets)...
+[2026.02.01-19.28.49:075][745]OBJ SavePackage: Finished generating thumbnails for package [/Game/Essentials/S_ColorInfo]
+[2026.02.01-19.28.49:075][745]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Essentials/S_ColorInfo" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_ColorInfo.uasset" SILENT=true
+[2026.02.01-19.28.49:084][745]LogSavePackage: Moving output files for package: /Game/Essentials/S_ColorInfo
+[2026.02.01-19.28.49:084][745]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/S_ColorInfoD724986440DC822E1C3A6AAB55AB2156.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_ColorInfo.uasset'
+[2026.02.01-19.28.49:092][745]LogFileHelpers: InternalPromptForCheckoutAndSave took 84.879 ms (total: 17.0 sec)
+[2026.02.01-19.28.49:169][745]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.28.49:169][745]LogContentValidation: Enabled validators:
+[2026.02.01-19.28.49:169][745]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.28.49:169][745]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.28.49:169][745]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.28.49:169][745]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.28.49:169][745]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.28.49:169][745]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.28.49:169][745]AssetCheck: /Game/Essentials/S_ColorInfo Validating asset
+[2026.02.01-19.29.03:891][260]LogSlate: Window 'Pick Row Structure' being destroyed
+[2026.02.01-19.29.03:902][260]LogContentBrowser: Deferred new asset file creation: NewDataTable
+[2026.02.01-19.29.03:915][260]LogContentBrowser: Creating deferred item: NewDataTable
+[2026.02.01-19.29.03:939][261]LogContentBrowser: Renaming the item being created (Deferred Item: NewDataTable).
+[2026.02.01-19.29.09:254][572]LogContentBrowser: Attempting asset rename: NewDataTable -> DT_ColorInfo
+[2026.02.01-19.29.09:255][572]LogContentBrowser: End creating deferred item NewDataTable
+[2026.02.01-19.29.09:717][599]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/Essentials/DT_ColorInfo.DT_ColorInfo
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: ================================================
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Total job queries 626, among them cache hits 96 (15.34%), DDC hits 412 (65.81%), Duplicates 67 (10.70%)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Tracking 463 distinct input hashes that result in 342 distinct outputs (73.87%)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: RAM used: 4.00 MiB of 1.60 GiB budget. Usage: 0.24%
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Shaders Compiled: 51
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Jobs assigned 51, completed 51 (100%)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Average time worker was idle: 742.43 s
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.10 s
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Job execution time: average 0.55 s, max 1.06 s
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Job life time (pending + execution): average 0.61 s, max 1.12
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Shader code size: total 494.312 KiB, numShaders 55, average 8.987 KiB, min 3.266 KiB, max 14.234 KiB
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 16.73 s
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  1.99%
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Jobs were issued in 51 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Average processing rate: 3.05 jobs/sec
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Total thread time: 22.301 s
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Total thread preprocess time: 8.651 s
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Percentage time preprocessing: 38.79%
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Effective parallelization: 1.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.166610
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled    6 times, average 0.75 sec, max 0.89 sec, min 0.69 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   13 times, average 0.56 sec, max 0.68 sec, min 0.52 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    1 times, average 0.48 sec, max 0.48 sec, min 0.48 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    3 times, average 0.46 sec, max 0.50 sec, min 0.43 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled   18 times, average 0.31 sec, max 0.36 sec, min 0.28 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 32.52% of total time (compiled   13 times, average 0.56 sec, max 0.68 sec, min 0.52 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 24.66% of total time (compiled   18 times, average 0.31 sec, max 0.36 sec, min 0.28 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 20.19% of total time (compiled    6 times, average 0.75 sec, max 0.89 sec, min 0.69 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                                                  FVelocityPS - 6.19% of total time (compiled    3 times, average 0.46 sec, max 0.50 sec, min 0.43 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 5.73% of total time (compiled    6 times, average 0.21 sec, max 0.25 sec, min 0.19 sec)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: === Material stats ===
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Materials Translated:    145
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Material Total Translate Time: 0.27 s
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Material Translation Only: 0.03 s (11%)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: Material Cache Hits: 12 (8%)
+[2026.02.01-19.29.50:077][885]LogShaderCompilers: Display: ================================================
+[2026.02.01-19.30.02:237][607]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedEnum /Game/Essentials/E_TileColorType.E_TileColorType
+[2026.02.01-19.30.08:059][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.30.08:125][904]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Essentials/E_TileColorType] ([1] browsable assets)...
+[2026.02.01-19.30.08:125][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/Essentials/E_TileColorType]
+[2026.02.01-19.30.08:125][904]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Essentials/E_TileColorType" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Essentials/E_TileColorType.uasset" SILENT=true
+[2026.02.01-19.30.08:133][904]LogSavePackage: Moving output files for package: /Game/Essentials/E_TileColorType
+[2026.02.01-19.30.08:133][904]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/E_TileColorType0907ECD6404EA05AB4A097B0844D6E11.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Essentials/E_TileColorType.uasset'
+[2026.02.01-19.30.08:141][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.003 ms (total: 17.1 sec)
+[2026.02.01-19.30.08:225][904]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.30.08:225][904]LogContentValidation: Enabled validators:
+[2026.02.01-19.30.08:225][904]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.30.08:225][904]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.30.08:225][904]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.30.08:225][904]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.30.08:225][904]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.30.08:225][904]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.30.08:225][904]AssetCheck: /Game/Essentials/E_TileColorType Validating asset
+[2026.02.01-19.30.37:339][356]LogSlate: Window 'Message' being destroyed
+[2026.02.01-19.30.37:347][356]Message dialog closed, result: Ok, title: Message, text: 'ColorCode2' is already used as a row name in this table
+[2026.02.01-19.30.45:458][725]LogSlate: Window 'Message' being destroyed
+[2026.02.01-19.30.45:466][725]Message dialog closed, result: Ok, title: Message, text: 'ColorCode2' is already used as a row name in this table
+[2026.02.01-19.31.16:560][356]LogPSOHitching: Encountered 50 PSO creation hitches so far (13 graphics, 37 compute). 0 of them were precached.
+[2026.02.01-19.31.25:706][857]LogContentBrowser: Deferred new asset file creation: M_YellowHighlight1
+[2026.02.01-19.31.25:731][857]LogContentBrowser: Creating deferred item: M_YellowHighlight1
+[2026.02.01-19.31.25:747][858]LogContentBrowser: Renaming the item being created (Deferred Item: M_YellowHighlight1).
+[2026.02.01-19.31.34:351][375]LogContentBrowser: Attempting asset rename: M_YellowHighlight1 -> M_BlueHighlight
+[2026.02.01-19.31.34:355][375]LogContentBrowser: End creating deferred item M_YellowHighlight1
+[2026.02.01-19.31.38:239][588]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/Materials/M_BlueHighlight.M_BlueHighlight
+[2026.02.01-19.31.38:252][588]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_14
+[2026.02.01-19.31.38:269][588]LogStreaming: Display: FlushAsyncLoading(579): 1 QueuedPackages, 0 AsyncPackages
+[2026.02.01-19.31.38:862][588]MaterialEditorStats: Texture samplers: 0/16
+[2026.02.01-19.31.38:862][588]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.02.01-19.31.38:862][588]MaterialEditorStats: Shader Count: 0
+[2026.02.01-19.31.38:862][588]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.02.01-19.31.38:959][590]MaterialEditorStats: Base pass shader: 173 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.02.01-19.31.38:959][590]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.02.01-19.31.38:959][590]MaterialEditorStats: Texture samplers: 1/16
+[2026.02.01-19.31.38:959][590]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.02.01-19.31.38:959][590]MaterialEditorStats: Shader Count: 5
+[2026.02.01-19.31.38:959][590]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.02.01-19.31.43:997][683]LogSlate: Window 'Color Picker' being destroyed
+[2026.02.01-19.31.44:008][683]MaterialEditorStats: Texture samplers: 0/16
+[2026.02.01-19.31.44:009][683]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.02.01-19.31.44:009][683]MaterialEditorStats: Shader Count: 0
+[2026.02.01-19.31.44:009][683]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.02.01-19.31.44:065][686]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.02.01-19.31.44:065][686]MaterialEditorStats: Texture samplers: 0/16
+[2026.02.01-19.31.44:065][686]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.02.01-19.31.44:065][686]MaterialEditorStats: Shader Count: 2
+[2026.02.01-19.31.44:065][686]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.02.01-19.31.44:670][721]MaterialEditorStats: Base pass shader: 174 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 32
+
+[2026.02.01-19.31.44:670][721]MaterialEditorStats: Base pass vertex shader: 148 instructions
+Stats: Resources Used: 4
+Resource Limit: 64
+Samplers Used: 0
+Sampler Limit: 32
+
+[2026.02.01-19.31.44:670][721]MaterialEditorStats: Texture samplers: 1/16
+[2026.02.01-19.31.44:670][721]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2026.02.01-19.31.44:670][721]MaterialEditorStats: Shader Count: 4
+[2026.02.01-19.31.44:670][721]MaterialEditorStats: Preshaders: 2  (2 param fetches, 4 ops)
+[2026.02.01-19.31.45:699][782]LogMaterialEditor: Saving and Compiling material M_BlueHighlight
+[2026.02.01-19.31.45:882][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2026.02.01-19.31.46:787][782]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.02.01-19.31.46:802][782]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.31.46:876][782]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_BlueHighlight] ([1] browsable assets)...
+[2026.02.01-19.31.46:885][782]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/M_BlueHighlight.M_BlueHighlight]
+[2026.02.01-19.31.46:885][782]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_BlueHighlight]
+[2026.02.01-19.31.46:885][782]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_BlueHighlight" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Materials/M_BlueHighlight.uasset" SILENT=true
+[2026.02.01-19.31.46:892][782]LogSavePackage: Moving output files for package: /Game/Materials/M_BlueHighlight
+[2026.02.01-19.31.46:892][782]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/M_BlueHighlightA4D27D254A515DE54BE28EAA3752C36E.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Materials/M_BlueHighlight.uasset'
+[2026.02.01-19.31.46:903][782]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.831 ms (total: 17.2 sec)
+[2026.02.01-19.31.46:986][782]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.31.46:986][782]LogContentValidation: Enabled validators:
+[2026.02.01-19.31.46:986][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.31.46:986][782]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.31.46:986][782]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.31.46:986][782]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.31.46:986][782]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.31.46:986][782]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.31.46:986][782]AssetCheck: /Game/Materials/M_BlueHighlight Validating asset
+[2026.02.01-19.31.47:004][782]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/Projects/MaskSelect/MaskSelect/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.01-19.31.53:675][163]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.31.53:741][163]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Essentials/DT_ColorInfo] ([1] browsable assets)...
+[2026.02.01-19.31.53:741][163]OBJ SavePackage: Finished generating thumbnails for package [/Game/Essentials/DT_ColorInfo]
+[2026.02.01-19.31.53:741][163]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Essentials/DT_ColorInfo" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Essentials/DT_ColorInfo.uasset" SILENT=true
+[2026.02.01-19.31.53:751][163]LogSavePackage: Moving output files for package: /Game/Essentials/DT_ColorInfo
+[2026.02.01-19.31.53:751][163]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/DT_ColorInfoA5D6FFCA4BB98846A73B45833B9CA9AE.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Essentials/DT_ColorInfo.uasset'
+[2026.02.01-19.31.53:761][163]LogFileHelpers: InternalPromptForCheckoutAndSave took 85.810 ms (total: 17.2 sec)
+[2026.02.01-19.31.53:834][163]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.31.53:834][163]LogContentValidation: Enabled validators:
+[2026.02.01-19.31.53:834][163]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.31.53:834][163]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.31.53:834][163]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.31.53:834][163]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.31.53:834][163]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.31.53:834][163]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.31.53:834][163]AssetCheck: /Game/Essentials/DT_ColorInfo Validating asset
+[2026.02.01-19.31.53:850][163]LogSourceControl: Display: Uncontrolled Changelist persistency file saved D:/Projects/MaskSelect/MaskSelect/Saved/SourceControl/UncontrolledChangelists.json
+[2026.02.01-19.31.57:769][399]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.31.57:841][399]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Essentials/S_ColorInfo] ([1] browsable assets)...
+[2026.02.01-19.31.57:841][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/Essentials/S_ColorInfo]
+[2026.02.01-19.31.57:841][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Essentials/S_ColorInfo" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_ColorInfo.uasset" SILENT=true
+[2026.02.01-19.31.57:850][399]LogSavePackage: Moving output files for package: /Game/Essentials/S_ColorInfo
+[2026.02.01-19.31.57:851][399]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/S_ColorInfoA8A9C9FE4FF1FD9A90F778A9C2B0E096.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_ColorInfo.uasset'
+[2026.02.01-19.31.57:858][399]LogFileHelpers: InternalPromptForCheckoutAndSave took 89.652 ms (total: 17.3 sec)
+[2026.02.01-19.31.57:934][399]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.31.57:934][399]LogContentValidation: Enabled validators:
+[2026.02.01-19.31.57:934][399]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.31.57:934][399]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.31.57:934][399]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.31.57:934][399]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.31.57:934][399]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.31.57:934][399]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.31.57:935][399]AssetCheck: /Game/Essentials/S_ColorInfo Validating asset
+[2026.02.01-19.32.00:687][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.01-19.32.00:736][560]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.32.00:807][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Interfaces/BPI_Tile] ([2] browsable assets)...
+[2026.02.01-19.32.00:807][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Interfaces/BPI_Tile]
+[2026.02.01-19.32.00:807][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interfaces/BPI_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Interfaces/BPI_Tile.uasset" SILENT=true
+[2026.02.01-19.32.00:818][560]LogSavePackage: Moving output files for package: /Game/Interfaces/BPI_Tile
+[2026.02.01-19.32.00:818][560]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/BPI_TileF9D96AAE4265A48E0658B88889AD0B4A.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Interfaces/BPI_Tile.uasset'
+[2026.02.01-19.32.00:819][560]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/TileManager] ([2] browsable assets)...
+[2026.02.01-19.32.00:819][560]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/TileManager]
+[2026.02.01-19.32.00:819][560]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/TileManager" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset" SILENT=true
+[2026.02.01-19.32.00:863][560]LogSavePackage: Moving output files for package: /Game/Actors/TileManager
+[2026.02.01-19.32.00:863][560]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileManagerEEC889704970C572A149578A8115B1FF.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset'
+[2026.02.01-19.32.00:872][560]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.365 ms (total: 17.5 sec)
+[2026.02.01-19.32.00:943][560]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.01-19.32.00:943][560]LogContentValidation: Enabled validators:
+[2026.02.01-19.32.00:943][560]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.32.00:943][560]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.32.00:943][560]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.32.00:943][560]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.32.00:943][560]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.32.00:943][560]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.32.00:943][560]AssetCheck: /Game/Interfaces/BPI_Tile Validating asset
+[2026.02.01-19.32.00:943][560]AssetCheck: /Game/Actors/TileManager Validating asset
+[2026.02.01-19.32.03:499][711]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.32.03:563][711]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Essentials/S_TileInfo] ([1] browsable assets)...
+[2026.02.01-19.32.03:563][711]OBJ SavePackage: Finished generating thumbnails for package [/Game/Essentials/S_TileInfo]
+[2026.02.01-19.32.03:563][711]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Essentials/S_TileInfo" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_TileInfo.uasset" SILENT=true
+[2026.02.01-19.32.03:570][711]LogSavePackage: Moving output files for package: /Game/Essentials/S_TileInfo
+[2026.02.01-19.32.03:571][711]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/S_TileInfoAD60C9524F03762D8465D8994770AF5B.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_TileInfo.uasset'
+[2026.02.01-19.32.03:581][711]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.016 ms (total: 17.5 sec)
+[2026.02.01-19.32.03:668][711]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.32.03:668][711]LogContentValidation: Enabled validators:
+[2026.02.01-19.32.03:668][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.32.03:668][711]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.32.03:668][711]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.32.03:668][711]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.32.03:668][711]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.32.03:668][711]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.32.03:668][711]AssetCheck: /Game/Essentials/S_TileInfo Validating asset
+[2026.02.01-19.32.05:326][804]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.01-19.32.05:373][804]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.32.05:440][804]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-19.32.05:540][804]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-19.32.05:540][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-19.32.05:540][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset" SILENT=true
+[2026.02.01-19.32.05:559][804]LogSavePackage: Moving output files for package: /Game/Actors/Base_Tile
+[2026.02.01-19.32.05:559][804]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_TileFD2CA8F84141808FD8DF2F86B8DAF838.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset'
+[2026.02.01-19.32.05:560][804]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-19.32.05:577][804]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-19.32.05:577][804]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-19.32.05:577][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-19.32.05:596][804]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-19.32.05:596][804]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileE2F056B64A62DDD5299CF08174A18AC5.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-19.32.05:607][804]LogFileHelpers: InternalPromptForCheckoutAndSave took 234.207 ms (total: 17.8 sec)
+[2026.02.01-19.32.05:682][804]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.01-19.32.05:682][804]LogContentValidation: Enabled validators:
+[2026.02.01-19.32.05:682][804]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.32.05:682][804]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.32.05:682][804]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.32.05:682][804]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.32.05:682][804]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.32.05:682][804]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.32.05:682][804]AssetCheck: /Game/Actors/Base_Tile Validating asset
+[2026.02.01-19.32.05:682][804]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-19.32.31:559][305]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9032.450195
+[2026.02.01-19.32.31:794][319]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.01-19.32.31:794][319]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9032.668945, Update Interval: 318.732269
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: ================================================
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Total job queries 756, among them cache hits 141 (18.65%), DDC hits 451 (59.66%), Duplicates 68 (8.99%)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Tracking 547 distinct input hashes that result in 406 distinct outputs (74.22%)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: RAM used: 4.51 MiB of 1.60 GiB budget. Usage: 0.28%
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Shaders Compiled: 96
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Jobs assigned 96, completed 96 (100%)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Average time worker was idle: 551.59 s
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Time job spent in pending queue: average 0.06 s, longest 0.11 s
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Job execution time: average 0.57 s, max 1.06 s
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Job life time (pending + execution): average 0.63 s, max 1.12
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Shader code size: total 953.452 KiB, numShaders 109, average 8.747 KiB, min 3.266 KiB, max 14.906 KiB
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 28.85 s
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  1.68%
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Jobs were issued in 96 batches (only local compilation was used), average 1.00 jobs/batch
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Average processing rate: 3.33 jobs/sec
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Total thread time: 44.202 s
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Total thread preprocess time: 10.671 s
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Percentage time preprocessing: 24.14%
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Effective parallelization: 1.53 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.191537
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader (compiled   11 times, average 0.80 sec, max 0.95 sec, min 0.69 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   20 times, average 0.56 sec, max 0.68 sec, min 0.52 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    1 times, average 0.56 sec, max 0.56 sec, min 0.56 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                                                 FDepthOnlyPS (compiled    5 times, average 0.48 sec, max 0.58 sec, min 0.43 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                                                  FVelocityPS (compiled    8 times, average 0.48 sec, max 0.61 sec, min 0.42 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 25.25% of total time (compiled   20 times, average 0.56 sec, max 0.68 sec, min 0.52 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                   TMaterialCHSFNoLightMapPolicyFAnyHitShader - 19.92% of total time (compiled   11 times, average 0.80 sec, max 0.95 sec, min 0.69 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 19.82% of total time (compiled   28 times, average 0.31 sec, max 0.42 sec, min 0.28 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                                                  FVelocityPS - 8.69% of total time (compiled    8 times, average 0.48 sec, max 0.61 sec, min 0.42 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display:                                                 FDepthOnlyPS - 5.47% of total time (compiled    5 times, average 0.48 sec, max 0.58 sec, min 0.43 sec)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: === Material stats ===
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Materials Cooked:        0
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Materials Translated:    153
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Material Total Translate Time: 0.28 s
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Material Translation Only: 0.03 s (11%)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (0%)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: Material Cache Hits: 12 (8%)
+[2026.02.01-19.32.50:381][189]LogShaderCompilers: Display: ================================================
+[2026.02.01-19.34.36:816][162]LogEditorTransaction: Undo Rename Data Table Row
+[2026.02.01-19.34.37:121][172]LogEditorTransaction: Undo Add Data Table Row
+[2026.02.01-19.34.37:394][182]LogEditorTransaction: Undo Move Nodes
+[2026.02.01-19.34.37:640][193]LogEditorTransaction: Undo Create Pin Link
+[2026.02.01-19.34.37:843][201]LogEditorTransaction: Undo Create Pin Link
+[2026.02.01-19.34.38:060][210]LogEditorTransaction: Undo Move Nodes
+[2026.02.01-19.34.38:291][219]LogEditorTransaction: Undo Move Node
+[2026.02.01-19.35.34:907][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.35.34:985][570]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Essentials/DT_ColorInfo] ([1] browsable assets)...
+[2026.02.01-19.35.34:985][570]OBJ SavePackage: Finished generating thumbnails for package [/Game/Essentials/DT_ColorInfo]
+[2026.02.01-19.35.34:985][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Essentials/DT_ColorInfo" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Essentials/DT_ColorInfo.uasset" SILENT=true
+[2026.02.01-19.35.34:995][570]LogSavePackage: Moving output files for package: /Game/Essentials/DT_ColorInfo
+[2026.02.01-19.35.34:995][570]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/DT_ColorInfoD985A6F24C38A6FFF3B9DEA9E8536A13.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Essentials/DT_ColorInfo.uasset'
+[2026.02.01-19.35.35:005][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.965 ms (total: 17.9 sec)
+[2026.02.01-19.35.35:084][570]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.35.35:084][570]LogContentValidation: Enabled validators:
+[2026.02.01-19.35.35:084][570]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.35.35:084][570]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.35.35:084][570]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.35.35:084][570]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.35.35:084][570]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.35.35:084][570]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.35.35:084][570]AssetCheck: /Game/Essentials/DT_ColorInfo Validating asset
+[2026.02.01-19.35.38:005][744]LogBlueprint: Error: [AssetLog] D:\Projects\MaskSelect\MaskSelect\Content\Actors\Base_Tile.uasset: [Compiler] 'ColorCode1' row name is not stored in 'DataTable /Game/Essentials/DT_ColorInfo.DT_ColorInfo'.  Get Data Table Row DT_ColorInfo
+[2026.02.01-19.35.38:060][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2026.02.01-19.35.38:099][744]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.35.38:177][744]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-19.35.38:270][744]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-19.35.38:270][744]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-19.35.38:270][744]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset" SILENT=true
+[2026.02.01-19.35.38:290][744]LogSavePackage: Moving output files for package: /Game/Actors/Base_Tile
+[2026.02.01-19.35.38:290][744]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_TileD6B8313645700F4DB49F3C893E68B811.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset'
+[2026.02.01-19.35.38:300][744]LogFileHelpers: InternalPromptForCheckoutAndSave took 200.142 ms (total: 18.1 sec)
+[2026.02.01-19.35.38:374][744]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.35.38:374][744]LogContentValidation: Enabled validators:
+[2026.02.01-19.35.38:374][744]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.35.38:374][744]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.35.38:374][744]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.35.38:374][744]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.35.38:374][744]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.35.38:374][744]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.35.38:374][744]AssetCheck: /Game/Actors/Base_Tile Validating asset
+[2026.02.01-19.37.20:065][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.02.01-19.37.20:115][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.37.20:187][810]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-19.37.20:282][810]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-19.37.20:282][810]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-19.37.20:282][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset" SILENT=true
+[2026.02.01-19.37.20:305][810]LogSavePackage: Moving output files for package: /Game/Actors/Base_Tile
+[2026.02.01-19.37.20:305][810]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_Tile9FEA0C6B433B20397E10868DD3402B1C.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset'
+[2026.02.01-19.37.20:315][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 200.201 ms (total: 18.3 sec)
+[2026.02.01-19.37.20:402][810]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.37.20:402][810]LogContentValidation: Enabled validators:
+[2026.02.01-19.37.20:402][810]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.37.20:402][810]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.37.20:402][810]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.37.20:402][810]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.37.20:402][810]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.37.20:402][810]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.37.20:402][810]AssetCheck: /Game/Actors/Base_Tile Validating asset
+[2026.02.01-19.38.02:149][258]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.02.01-19.38.02:201][258]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.38.02:296][258]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-19.38.02:389][258]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-19.38.02:389][258]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-19.38.02:389][258]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset" SILENT=true
+[2026.02.01-19.38.02:412][258]LogSavePackage: Moving output files for package: /Game/Actors/Base_Tile
+[2026.02.01-19.38.02:412][258]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_Tile1D8607954FE7AC67946488801CD90CBE.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset'
+[2026.02.01-19.38.02:422][258]LogFileHelpers: InternalPromptForCheckoutAndSave took 219.972 ms (total: 18.5 sec)
+[2026.02.01-19.38.02:497][258]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.38.02:497][258]LogContentValidation: Enabled validators:
+[2026.02.01-19.38.02:497][258]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.38.02:497][258]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.38.02:497][258]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.38.02:497][258]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.38.02:497][258]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.38.02:497][258]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.38.02:497][258]AssetCheck: /Game/Actors/Base_Tile Validating asset
+[2026.02.01-19.38.08:654][617]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.02.01-19.38.08:704][617]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-19.38.08:781][617]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-19.38.08:871][617]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-19.38.08:871][617]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-19.38.08:871][617]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset" SILENT=true
+[2026.02.01-19.38.08:890][617]LogSavePackage: Moving output files for package: /Game/Actors/Base_Tile
+[2026.02.01-19.38.08:891][617]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_TileA0765A4441F7DDF803E12AA8CDDC17E6.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset'
+[2026.02.01-19.38.08:902][617]LogFileHelpers: InternalPromptForCheckoutAndSave took 198.262 ms (total: 18.7 sec)
+[2026.02.01-19.38.08:981][617]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-19.38.08:981][617]LogContentValidation: Enabled validators:
+[2026.02.01-19.38.08:981][617]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-19.38.08:981][617]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-19.38.08:981][617]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-19.38.08:981][617]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-19.38.08:981][617]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-19.38.08:981][617]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-19.38.08:981][617]AssetCheck: /Game/Actors/Base_Tile Validating asset
+[2026.02.01-19.38.16:413][ 49]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-19.38.16:417][ 49]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-19.38.16:418][ 49]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-19.38.16:418][ 49]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 614 us (total: 57.156 ms)
+[2026.02.01-19.38.16:420][ 49]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2026.02.01-19.38.16:442][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.02.01-19.38.16:447][ 49]LogPlayLevel: PlayLevel: Blueprint regeneration took 28 ms (1 blueprints)
+[2026.02.01-19.38.16:447][ 49]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-19.38.16:450][ 49]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-19.38.16:451][ 49]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 663 us (total: 74.863 ms)
+[2026.02.01-19.38.16:451][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003889s)
+[2026.02.01-19.38.16:451][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.003922s)
+[2026.02.01-19.38.16:470][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.02.01-19.38.16:471][ 49]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-19.38.16:473][ 49]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-19.38.16:473][ 49]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-19.38.16:473][ 49]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-19.38.16:473][ 49]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-19.38.16:474][ 49]LogWorldPartition: Display: WorldPartition initialize took 954 us (total: 424.803 ms)
+[2026.02.01-19.38.16:474][ 49]LogPlayLevel: PIE: World Init took: (0.002565s)
+[2026.02.01-19.38.16:474][ 49]LogAudio: Display: Creating Audio Device:                 Id: 109, Scope: Unique, Realtime: True
+[2026.02.01-19.38.16:474][ 49]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-19.38.16:474][ 49]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-19.38.16:474][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-19.38.16:474][ 49]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-19.38.16:475][ 49]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-19.38.16:475][ 49]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-19.38.16:475][ 49]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-19.38.16:475][ 49]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-19.38.16:475][ 49]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-19.38.16:475][ 49]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-19.38.16:475][ 49]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-19.38.16:476][ 49]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-19.38.16:490][ 49]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-19.38.16:490][ 49]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-19.38.16:490][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-19.38.16:490][ 49]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-19.38.16:491][ 49]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=109
+[2026.02.01-19.38.16:491][ 49]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=109
+[2026.02.01-19.38.16:493][ 49]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=109
+[2026.02.01-19.38.16:493][ 49]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=109
+[2026.02.01-19.38.16:493][ 49]LogInit: FAudioDevice initialized with ID 109.
+[2026.02.01-19.38.16:493][ 49]LogAudio: Display: Audio Device (ID: 109) registered with world 'Lvl_TopDown'.
+[2026.02.01-19.38.16:493][ 49]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 109
+[2026.02.01-19.38.16:497][ 49]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-19.38.16:499][ 49]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-14.38.16
+[2026.02.01-19.38.16:499][ 49]LogWorld: Bringing up level for play took: 0.001352
+[2026.02.01-19.38.16:501][ 49]LogOnline: OSS: Created online subsystem instance for: :Context_123
+[2026.02.01-19.38.16:502][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:503][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:503][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:504][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:504][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:505][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:506][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:506][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:507][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:507][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:507][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:508][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:508][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:509][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:509][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:510][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:510][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:511][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:512][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:512][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:513][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:513][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:514][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:514][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:515][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:515][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:515][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:517][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:517][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:518][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:519][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:519][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:520][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:520][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:521][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:521][ 49]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-19.38.16:524][ 49]PIE: Server logged in
+[2026.02.01-19.38.16:526][ 49]PIE: Play in editor total start time 0.109 seconds.
+[2026.02.01-19.38.16:575][ 50]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-19.38.31:468][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-19.38.31:468][938]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-19.38.31:469][938]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-19.38.31:474][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-19.38.31:474][938]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-19.38.31:478][938]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-19.38.31:481][938]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-19.38.31:498][938]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-19.38.31:498][938]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 109
+[2026.02.01-19.38.31:498][938]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=109, StreamState=4
+[2026.02.01-19.38.31:500][938]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=109, StreamState=2
+[2026.02.01-19.38.31:507][938]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2026.02.01-19.38.31:550][939]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2026.02.01-19.38.43:377][646]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 9403.898438
+[2026.02.01-19.38.43:560][656]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.01-19.38.43:560][656]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 9404.063477, Update Interval: 315.723755
