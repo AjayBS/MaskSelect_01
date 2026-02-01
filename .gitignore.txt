@@ -62,5 +62,11 @@
 # Mac OS files
 .DS_Store
 
+/Intermediate/
+/Saved/
+/Binaries/
+/DerivedDataCache/
+/Build/
+
 # Ensure content files (uasset, umap) are tracked by Git LFS (Git Large File Storage)
 # This requires having Git LFS installed and configured for these file types in a separate .gitattributes file
