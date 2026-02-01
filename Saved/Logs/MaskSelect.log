@@ -18079,3 +18079,1136 @@ Script call stack:
 [2026.02.01-20.00.16:545][586]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=121, StreamState=2
 [2026.02.01-20.00.16:551][586]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
 [2026.02.01-20.00.16:594][587]LogPlayLevel: Display: Destroying online subsystem :Context_135
+[2026.02.01-20.00.40:180][843]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-20.00.40:184][843]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-20.00.40:184][843]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-20.00.40:184][843]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 508 us (total: 64.125 ms)
+[2026.02.01-20.00.40:185][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-20.00.40:207][843]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.00.40:211][843]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-20.00.40:212][843]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 713 us (total: 83.844 ms)
+[2026.02.01-20.00.40:212][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004240s)
+[2026.02.01-20.00.40:212][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.004296s)
+[2026.02.01-20.00.40:252][843]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2026.02.01-20.00.40:255][843]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-20.00.40:256][843]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-20.00.40:256][843]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-20.00.40:256][843]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-20.00.40:256][843]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-20.00.40:257][843]LogWorldPartition: Display: WorldPartition initialize took 880 us (total: 437.184 ms)
+[2026.02.01-20.00.40:257][843]LogPlayLevel: PIE: World Init took: (0.002360s)
+[2026.02.01-20.00.40:258][843]LogAudio: Display: Creating Audio Device:                 Id: 122, Scope: Unique, Realtime: True
+[2026.02.01-20.00.40:258][843]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-20.00.40:258][843]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-20.00.40:258][843]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-20.00.40:258][843]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-20.00.40:258][843]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-20.00.40:258][843]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-20.00.40:258][843]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-20.00.40:258][843]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-20.00.40:258][843]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-20.00.40:258][843]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-20.00.40:258][843]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-20.00.40:259][843]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-20.00.40:273][843]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-20.00.40:273][843]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-20.00.40:273][843]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-20.00.40:273][843]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-20.00.40:273][843]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=122
+[2026.02.01-20.00.40:273][843]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=122
+[2026.02.01-20.00.40:275][843]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=122
+[2026.02.01-20.00.40:275][843]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=122
+[2026.02.01-20.00.40:275][843]LogInit: FAudioDevice initialized with ID 122.
+[2026.02.01-20.00.40:275][843]LogAudio: Display: Audio Device (ID: 122) registered with world 'Lvl_TopDown'.
+[2026.02.01-20.00.40:276][843]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 122
+[2026.02.01-20.00.40:279][843]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-20.00.40:280][843]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-15.00.40
+[2026.02.01-20.00.40:280][843]LogWorld: Bringing up level for play took: 0.001313
+[2026.02.01-20.00.40:282][843]LogOnline: OSS: Created online subsystem instance for: :Context_136
+[2026.02.01-20.00.40:284][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:284][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:284][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:286][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:286][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:287][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:287][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:288][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:289][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:289][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:290][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:290][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:291][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:291][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:292][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:292][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:293][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:293][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:294][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:294][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:295][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:295][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:296][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:296][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:296][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:297][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:298][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:298][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:299][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:299][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:300][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:300][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:301][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:301][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:302][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:303][843]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.00.40:306][843]PIE: Server logged in
+[2026.02.01-20.00.40:308][843]PIE: Play in editor total start time 0.125 seconds.
+[2026.02.01-20.00.40:357][844]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-20.00.42:318][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.00.42:318][957]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.00.42:318][957]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-20.00.42:325][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.00.42:325][957]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-20.00.42:329][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-20.00.42:331][957]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.00.42:349][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.00.42:349][957]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 122
+[2026.02.01-20.00.42:349][957]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=122, StreamState=4
+[2026.02.01-20.00.42:351][957]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=122, StreamState=2
+[2026.02.01-20.00.42:358][957]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.02.01-20.00.42:402][958]LogPlayLevel: Display: Destroying online subsystem :Context_136
+[2026.02.01-20.02.59:731][ 73]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10859.491211
+[2026.02.01-20.03.00:731][ 76]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.01-20.03.00:731][ 77]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10860.152344, Update Interval: 359.567871
+[2026.02.01-20.03.54:466][588]LogDerivedDataCache: C:/Users/bsaja/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2026.02.01-20.04.30:639][716]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.02.01-20.04.30:673][716]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.04.30:743][716]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-20.04.30:813][716]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-20.04.30:813][716]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-20.04.30:813][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-20.04.30:838][716]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-20.04.30:838][716]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileDA2900A740EFE760DF78D3B33843A35A.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-20.04.30:840][716]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Components/BPC_Coin] ([2] browsable assets)...
+[2026.02.01-20.04.30:840][716]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Components/BPC_Coin]
+[2026.02.01-20.04.30:840][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Components/BPC_Coin" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset" SILENT=true
+[2026.02.01-20.04.30:890][716]LogSavePackage: Moving output files for package: /Game/Actors/Components/BPC_Coin
+[2026.02.01-20.04.30:891][716]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/BPC_Coin4C8282EB4486E13D5A1CC693A41EE7A1.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset'
+[2026.02.01-20.04.30:900][716]LogFileHelpers: InternalPromptForCheckoutAndSave took 227.917 ms (total: 21.1 sec)
+[2026.02.01-20.04.30:975][716]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.01-20.04.30:975][716]LogContentValidation: Enabled validators:
+[2026.02.01-20.04.30:975][716]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.04.30:975][716]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.04.30:975][716]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.04.30:975][716]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.04.30:975][716]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.04.30:975][716]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.04.30:975][716]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-20.04.30:975][716]AssetCheck: /Game/Actors/Components/BPC_Coin Validating asset
+[2026.02.01-20.04.31:947][769]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2026.02.01-20.06.18:648][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   1.01ms
+[2026.02.01-20.06.18:671][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.06.18:739][ 25]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Components/BPC_Coin] ([2] browsable assets)...
+[2026.02.01-20.06.18:739][ 25]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Components/BPC_Coin]
+[2026.02.01-20.06.18:739][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Components/BPC_Coin" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset" SILENT=true
+[2026.02.01-20.06.18:753][ 25]LogSavePackage: Moving output files for package: /Game/Actors/Components/BPC_Coin
+[2026.02.01-20.06.18:753][ 25]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/BPC_CoinDA2573DD4DB96E32B3DF41BA7B68DA56.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset'
+[2026.02.01-20.06.18:763][ 25]LogFileHelpers: InternalPromptForCheckoutAndSave took 91.373 ms (total: 21.2 sec)
+[2026.02.01-20.06.18:843][ 25]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.06.18:843][ 25]LogContentValidation: Enabled validators:
+[2026.02.01-20.06.18:843][ 25]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.06.18:843][ 25]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.06.18:843][ 25]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.06.18:843][ 25]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.06.18:843][ 25]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.06.18:843][ 25]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.06.18:843][ 25]AssetCheck: /Game/Actors/Components/BPC_Coin Validating asset
+[2026.02.01-20.06.33:522][868]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2026.02.01-20.06.33:546][868]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.06.33:613][868]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Components/BPC_Coin] ([2] browsable assets)...
+[2026.02.01-20.06.33:613][868]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Components/BPC_Coin]
+[2026.02.01-20.06.33:613][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Components/BPC_Coin" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset" SILENT=true
+[2026.02.01-20.06.33:629][868]LogSavePackage: Moving output files for package: /Game/Actors/Components/BPC_Coin
+[2026.02.01-20.06.33:629][868]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/BPC_CoinA802938348B5325160B9A6975272E1F0.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset'
+[2026.02.01-20.06.33:639][868]LogFileHelpers: InternalPromptForCheckoutAndSave took 93.238 ms (total: 21.3 sec)
+[2026.02.01-20.06.33:725][868]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.06.33:725][868]LogContentValidation: Enabled validators:
+[2026.02.01-20.06.33:725][868]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.06.33:725][868]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.06.33:725][868]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.06.33:725][868]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.06.33:725][868]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.06.33:725][868]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.06.33:725][868]AssetCheck: /Game/Actors/Components/BPC_Coin Validating asset
+[2026.02.01-20.06.40:954][297]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.02.01-20.06.40:977][297]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.06.41:055][297]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Components/BPC_Coin] ([2] browsable assets)...
+[2026.02.01-20.06.41:055][297]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Components/BPC_Coin]
+[2026.02.01-20.06.41:055][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Components/BPC_Coin" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset" SILENT=true
+[2026.02.01-20.06.41:067][297]LogSavePackage: Moving output files for package: /Game/Actors/Components/BPC_Coin
+[2026.02.01-20.06.41:068][297]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/BPC_CoinC8EE94364D45FE19C6D9FC9039ACEED3.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset'
+[2026.02.01-20.06.41:077][297]LogFileHelpers: InternalPromptForCheckoutAndSave took 100.025 ms (total: 21.4 sec)
+[2026.02.01-20.06.41:163][297]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.06.41:163][297]LogContentValidation: Enabled validators:
+[2026.02.01-20.06.41:163][297]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.06.41:163][297]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.06.41:163][297]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.06.41:163][297]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.06.41:163][297]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.06.41:163][297]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.06.41:163][297]AssetCheck: /Game/Actors/Components/BPC_Coin Validating asset
+[2026.02.01-20.06.53:738][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.02.01-20.06.53:761][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.06.53:832][ 41]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Components/BPC_Coin] ([2] browsable assets)...
+[2026.02.01-20.06.53:832][ 41]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Components/BPC_Coin]
+[2026.02.01-20.06.53:832][ 41]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Components/BPC_Coin" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset" SILENT=true
+[2026.02.01-20.06.53:844][ 41]LogSavePackage: Moving output files for package: /Game/Actors/Components/BPC_Coin
+[2026.02.01-20.06.53:844][ 41]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/BPC_Coin99DB04C7400688907A05B386F8142118.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset'
+[2026.02.01-20.06.53:856][ 41]LogFileHelpers: InternalPromptForCheckoutAndSave took 96.662 ms (total: 21.5 sec)
+[2026.02.01-20.06.53:936][ 41]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.06.53:936][ 41]LogContentValidation: Enabled validators:
+[2026.02.01-20.06.53:936][ 41]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.06.53:936][ 41]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.06.53:936][ 41]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.06.53:936][ 41]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.06.53:936][ 41]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.06.53:936][ 41]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.06.53:936][ 41]AssetCheck: /Game/Actors/Components/BPC_Coin Validating asset
+[2026.02.01-20.06.55:921][150]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2026.02.01-20.06.55:957][150]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.06.56:024][150]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-20.06.56:118][150]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-20.06.56:118][150]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-20.06.56:118][150]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-20.06.56:138][150]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-20.06.56:138][150]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileB94493FA45CD884AC422BD81C7030E2D.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-20.06.56:148][150]LogFileHelpers: InternalPromptForCheckoutAndSave took 190.370 ms (total: 21.6 sec)
+[2026.02.01-20.06.56:231][150]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.06.56:231][150]LogContentValidation: Enabled validators:
+[2026.02.01-20.06.56:231][150]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.06.56:231][150]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.06.56:231][150]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.06.56:231][150]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.06.56:231][150]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.06.56:231][150]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.06.56:231][150]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-20.07.45:129][ 31]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.02.01-20.07.45:167][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.07.45:252][ 31]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-20.07.45:344][ 31]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-20.07.45:344][ 31]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-20.07.45:344][ 31]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-20.07.45:369][ 31]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-20.07.45:370][ 31]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Tile9FE75698482423C73E27E5A2CCBA3FA9.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-20.07.45:378][ 31]LogFileHelpers: InternalPromptForCheckoutAndSave took 211.987 ms (total: 21.9 sec)
+[2026.02.01-20.07.45:452][ 31]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.07.45:452][ 31]LogContentValidation: Enabled validators:
+[2026.02.01-20.07.45:452][ 31]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.07.45:452][ 31]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.07.45:452][ 31]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.07.45:452][ 31]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.07.45:452][ 31]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.07.45:452][ 31]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.07.45:452][ 31]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-20.07.49:624][273]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-20.07.49:628][273]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-20.07.49:628][273]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-20.07.49:629][273]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 488 us (total: 64.613 ms)
+[2026.02.01-20.07.49:629][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-20.07.49:629][273]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.07.49:632][273]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-20.07.49:633][273]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 687 us (total: 84.531 ms)
+[2026.02.01-20.07.49:633][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004010s)
+[2026.02.01-20.07.49:633][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.004039s)
+[2026.02.01-20.07.49:651][273]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2026.02.01-20.07.49:655][273]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-20.07.49:656][273]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-20.07.49:656][273]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-20.07.49:656][273]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-20.07.49:656][273]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-20.07.49:657][273]LogWorldPartition: Display: WorldPartition initialize took 928 us (total: 438.113 ms)
+[2026.02.01-20.07.49:657][273]LogPlayLevel: PIE: World Init took: (0.002506s)
+[2026.02.01-20.07.49:658][273]LogAudio: Display: Creating Audio Device:                 Id: 123, Scope: Unique, Realtime: True
+[2026.02.01-20.07.49:658][273]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-20.07.49:658][273]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-20.07.49:658][273]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-20.07.49:658][273]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-20.07.49:658][273]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-20.07.49:658][273]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-20.07.49:658][273]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-20.07.49:658][273]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-20.07.49:658][273]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-20.07.49:658][273]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-20.07.49:658][273]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-20.07.49:659][273]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-20.07.49:673][273]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-20.07.49:674][273]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-20.07.49:674][273]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-20.07.49:674][273]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-20.07.49:674][273]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=123
+[2026.02.01-20.07.49:674][273]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=123
+[2026.02.01-20.07.49:676][273]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=123
+[2026.02.01-20.07.49:676][273]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=123
+[2026.02.01-20.07.49:676][273]LogInit: FAudioDevice initialized with ID 123.
+[2026.02.01-20.07.49:676][273]LogAudio: Display: Audio Device (ID: 123) registered with world 'Lvl_TopDown'.
+[2026.02.01-20.07.49:676][273]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 123
+[2026.02.01-20.07.49:679][273]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-20.07.49:681][273]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-15.07.49
+[2026.02.01-20.07.49:681][273]LogWorld: Bringing up level for play took: 0.001367
+[2026.02.01-20.07.49:683][273]LogOnline: OSS: Created online subsystem instance for: :Context_137
+[2026.02.01-20.07.49:684][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:686][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:686][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:687][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:687][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:688][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:688][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:689][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:689][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:690][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:690][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:691][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:692][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:692][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:693][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:693][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:694][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:694][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:695][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:695][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:696][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:696][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:696][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:697][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:698][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:698][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:699][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:699][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:699][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:700][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:701][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:701][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:702][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:702][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:703][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:703][273]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.07.49:707][273]PIE: Server logged in
+[2026.02.01-20.07.49:709][273]PIE: Play in editor total start time 0.081 seconds.
+[2026.02.01-20.07.49:757][274]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-20.07.55:898][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.07.55:898][638]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.07.55:898][638]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-20.07.55:909][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.07.55:909][638]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-20.07.55:914][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-20.07.55:917][638]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.07.55:934][638]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.01-20.07.55:934][638]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 123
+[2026.02.01-20.07.55:934][638]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=123, StreamState=4
+[2026.02.01-20.07.55:936][638]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=123, StreamState=2
+[2026.02.01-20.07.55:940][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.07.55:943][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2026.02.01-20.07.55:986][639]LogPlayLevel: Display: Destroying online subsystem :Context_137
+[2026.02.01-20.08.14:485][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.08.14:591][742]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/WZ/MPOCSP1DC1C6JZX1F9S0MQ
+[2026.02.01-20.08.14:592][742]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/MPOCSP1DC1C6JZX1F9S0MQD04417F447F2088132FE8ABA1B6DC2B7.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/WZ/MPOCSP1DC1C6JZX1F9S0MQ.uasset'
+[2026.02.01-20.08.14:600][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 115.343 ms (total: 22.0 sec)
+[2026.02.01-20.08.14:675][742]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.08.14:675][742]LogContentValidation: Enabled validators:
+[2026.02.01-20.08.14:675][742]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.08.14:675][742]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.08.14:675][742]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.08.14:675][742]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.08.14:675][742]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.08.14:675][742]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.08.14:675][742]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2026.02.01-20.08.15:638][799]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-20.08.15:642][799]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-20.08.15:642][799]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-20.08.15:643][799]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 527 us (total: 65.140 ms)
+[2026.02.01-20.08.15:643][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-20.08.15:643][799]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.08.15:646][799]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-20.08.15:647][799]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 686 us (total: 85.218 ms)
+[2026.02.01-20.08.15:647][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003899s)
+[2026.02.01-20.08.15:647][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.003928s)
+[2026.02.01-20.08.15:665][799]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2026.02.01-20.08.15:667][799]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-20.08.15:669][799]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-20.08.15:669][799]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-20.08.15:669][799]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-20.08.15:669][799]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-20.08.15:669][799]LogWorldPartition: Display: WorldPartition initialize took 914 us (total: 439.028 ms)
+[2026.02.01-20.08.15:670][799]LogPlayLevel: PIE: World Init took: (0.002354s)
+[2026.02.01-20.08.15:670][799]LogAudio: Display: Creating Audio Device:                 Id: 124, Scope: Unique, Realtime: True
+[2026.02.01-20.08.15:670][799]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-20.08.15:670][799]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-20.08.15:670][799]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-20.08.15:670][799]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-20.08.15:670][799]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-20.08.15:670][799]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-20.08.15:670][799]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-20.08.15:670][799]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-20.08.15:670][799]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-20.08.15:670][799]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-20.08.15:670][799]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-20.08.15:672][799]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-20.08.15:685][799]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-20.08.15:685][799]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-20.08.15:685][799]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-20.08.15:685][799]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-20.08.15:686][799]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=124
+[2026.02.01-20.08.15:686][799]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=124
+[2026.02.01-20.08.15:687][799]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=124
+[2026.02.01-20.08.15:687][799]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=124
+[2026.02.01-20.08.15:687][799]LogInit: FAudioDevice initialized with ID 124.
+[2026.02.01-20.08.15:687][799]LogAudio: Display: Audio Device (ID: 124) registered with world 'Lvl_TopDown'.
+[2026.02.01-20.08.15:687][799]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 124
+[2026.02.01-20.08.15:691][799]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-20.08.15:693][799]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-15.08.15
+[2026.02.01-20.08.15:693][799]LogWorld: Bringing up level for play took: 0.001675
+[2026.02.01-20.08.15:696][799]LogOnline: OSS: Created online subsystem instance for: :Context_138
+[2026.02.01-20.08.15:697][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:698][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:698][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:699][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:699][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:700][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:701][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:701][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:702][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:702][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:703][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:703][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:704][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:704][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:705][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:705][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:706][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:706][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:707][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:707][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:708][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:708][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:709][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:710][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:710][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:711][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:711][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:712][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:712][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:713][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:713][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:714][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:714][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:716][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:716][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:717][799]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.08.15:720][799]PIE: Server logged in
+[2026.02.01-20.08.15:722][799]PIE: Play in editor total start time 0.08 seconds.
+[2026.02.01-20.08.15:769][800]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-20.08.19:957][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.08.19:957][ 47]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.08.19:957][ 47]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-20.08.19:962][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.08.19:962][ 47]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-20.08.19:967][ 47]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-20.08.19:970][ 47]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.08.19:990][ 47]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.08.19:991][ 47]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 124
+[2026.02.01-20.08.19:991][ 47]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=124, StreamState=4
+[2026.02.01-20.08.19:993][ 47]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=124, StreamState=2
+[2026.02.01-20.08.19:999][ 47]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2026.02.01-20.08.20:036][ 48]LogPlayLevel: Display: Destroying online subsystem :Context_138
+[2026.02.01-20.08.29:906][635]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.08.29:980][635]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/WZ/MPOCSP1DC1C6JZX1F9S0MQ
+[2026.02.01-20.08.29:980][635]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/MPOCSP1DC1C6JZX1F9S0MQ891982A84FA9D679AD0732B75E17BC3E.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/WZ/MPOCSP1DC1C6JZX1F9S0MQ.uasset'
+[2026.02.01-20.08.29:988][635]LogFileHelpers: InternalPromptForCheckoutAndSave took 82.135 ms (total: 22.1 sec)
+[2026.02.01-20.08.30:060][635]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.08.30:060][635]LogContentValidation: Enabled validators:
+[2026.02.01-20.08.30:060][635]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.08.30:060][635]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.08.30:060][635]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.08.30:060][635]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.08.30:060][635]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.08.30:060][635]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.08.30:060][635]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2026.02.01-20.09.03:252][625]LogBlueprint: Error: [AssetLog] D:\Projects\MaskSelect\MaskSelect\Content\Essentials\S_TileInfo.uasset: [Compiler] The variable MemberVar_23_9C0C1A284B1FEF46A4491E82105721FF declared in S_TileInfo has an invalid type Structure
+[2026.02.01-20.09.13:297][222]LogBlueprint: Error: [AssetLog] D:\Projects\MaskSelect\MaskSelect\Content\Essentials\S_TileInfo.uasset: [Compiler] The variable CoinColor_24_9C0C1A284B1FEF46A4491E82105721FF declared in S_TileInfo has an invalid type Structure
+[2026.02.01-20.09.20:402][635]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.09.20:456][635]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Essentials/S_TileInfo] ([1] browsable assets)...
+[2026.02.01-20.09.20:456][635]OBJ SavePackage: Finished generating thumbnails for package [/Game/Essentials/S_TileInfo]
+[2026.02.01-20.09.20:456][635]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Essentials/S_TileInfo" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_TileInfo.uasset" SILENT=true
+[2026.02.01-20.09.20:468][635]LogSavePackage: Moving output files for package: /Game/Essentials/S_TileInfo
+[2026.02.01-20.09.20:468][635]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/S_TileInfo579CA6C847B4DB0BF15FCF992076BAB7.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_TileInfo.uasset'
+[2026.02.01-20.09.20:478][635]LogFileHelpers: InternalPromptForCheckoutAndSave took 74.367 ms (total: 22.1 sec)
+[2026.02.01-20.09.20:574][635]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.09.20:574][635]LogContentValidation: Enabled validators:
+[2026.02.01-20.09.20:574][635]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.09.20:574][635]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.09.20:574][635]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.09.20:574][635]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.09.20:574][635]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.09.20:574][635]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.09.20:574][635]AssetCheck: /Game/Essentials/S_TileInfo Validating asset
+[2026.02.01-20.09.29:844][172]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.02.01-20.09.29:898][172]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.09.29:969][172]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Interfaces/BPI_Tile] ([2] browsable assets)...
+[2026.02.01-20.09.29:969][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Interfaces/BPI_Tile]
+[2026.02.01-20.09.29:969][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interfaces/BPI_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Interfaces/BPI_Tile.uasset" SILENT=true
+[2026.02.01-20.09.29:982][172]LogSavePackage: Moving output files for package: /Game/Interfaces/BPI_Tile
+[2026.02.01-20.09.29:982][172]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/BPI_Tile72679DA040BDB312C248529E7DBFAE61.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Interfaces/BPI_Tile.uasset'
+[2026.02.01-20.09.29:983][172]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Base_Tile] ([2] browsable assets)...
+[2026.02.01-20.09.30:051][172]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Base_Tile.Base_Tile]
+[2026.02.01-20.09.30:051][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Base_Tile]
+[2026.02.01-20.09.30:051][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Base_Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset" SILENT=true
+[2026.02.01-20.09.30:069][172]LogSavePackage: Moving output files for package: /Game/Actors/Base_Tile
+[2026.02.01-20.09.30:069][172]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Base_TileE9EC41744046C1E7AA6BAEB4E0BEDF36.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset'
+[2026.02.01-20.09.30:070][172]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/TileManager] ([2] browsable assets)...
+[2026.02.01-20.09.30:070][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/TileManager]
+[2026.02.01-20.09.30:070][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/TileManager" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset" SILENT=true
+[2026.02.01-20.09.30:115][172]LogSavePackage: Moving output files for package: /Game/Actors/TileManager
+[2026.02.01-20.09.30:115][172]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileManager4728DE5A4FB8C610B61989A6DDB7FBC5.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset'
+[2026.02.01-20.09.30:115][172]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-20.09.30:122][172]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-20.09.30:122][172]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-20.09.30:122][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-20.09.30:142][172]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-20.09.30:142][172]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Tile3C27633049D331DBD84E9191239F220A.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-20.09.30:152][172]LogFileHelpers: InternalPromptForCheckoutAndSave took 253.524 ms (total: 22.4 sec)
+[2026.02.01-20.09.30:223][172]LogContentValidation: Display: Starting to validate 4 assets
+[2026.02.01-20.09.30:223][172]LogContentValidation: Enabled validators:
+[2026.02.01-20.09.30:223][172]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.09.30:223][172]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.09.30:223][172]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.09.30:223][172]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.09.30:223][172]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.09.30:223][172]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.09.30:223][172]AssetCheck: /Game/Interfaces/BPI_Tile Validating asset
+[2026.02.01-20.09.30:223][172]AssetCheck: /Game/Actors/Base_Tile Validating asset
+[2026.02.01-20.09.30:223][172]AssetCheck: /Game/Actors/TileManager Validating asset
+[2026.02.01-20.09.30:223][172]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-20.09.36:945][562]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.09.37:018][562]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/TopDown/Lvl_TopDown/1/WZ/MPOCSP1DC1C6JZX1F9S0MQ
+[2026.02.01-20.09.37:018][562]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/MPOCSP1DC1C6JZX1F9S0MQ480C9A8641D7F882517196932024BBFF.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/WZ/MPOCSP1DC1C6JZX1F9S0MQ.uasset'
+[2026.02.01-20.09.37:029][562]LogFileHelpers: InternalPromptForCheckoutAndSave took 83.642 ms (total: 22.5 sec)
+[2026.02.01-20.09.37:121][562]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.01-20.09.37:121][562]LogContentValidation: Enabled validators:
+[2026.02.01-20.09.37:122][562]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.09.37:122][562]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.09.37:122][562]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.09.37:122][562]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.09.37:122][562]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.09.37:122][562]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.09.37:122][562]AssetCheck: /Game/TopDown/Lvl_TopDown Validating asset
+[2026.02.01-20.09.49:134][279]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11268.564453
+[2026.02.01-20.09.49:317][290]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2026.02.01-20.09.49:317][290]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11268.730469, Update Interval: 356.949371
+[2026.02.01-20.10.07:032][322]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.02.01-20.10.07:070][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.10.07:130][322]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-20.10.07:242][322]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-20.10.07:242][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-20.10.07:242][322]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-20.10.07:264][322]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-20.10.07:264][322]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/Tile8E81FEFC41E8F2B2E6E7739E00C9B17C.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-20.10.07:272][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 202.772 ms (total: 22.7 sec)
+[2026.02.01-20.10.07:359][322]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.10.07:359][322]LogContentValidation: Enabled validators:
+[2026.02.01-20.10.07:359][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.10.07:359][322]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.10.07:359][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.10.07:359][322]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.10.07:359][322]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.10.07:359][322]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.10.07:359][322]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-20.10.09:518][445]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-20.10.09:521][445]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-20.10.09:521][445]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-20.10.09:522][445]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 501 us (total: 65.642 ms)
+[2026.02.01-20.10.09:522][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-20.10.09:522][445]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.10.09:527][445]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-20.10.09:527][445]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 677 us (total: 85.896 ms)
+[2026.02.01-20.10.09:527][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004445s)
+[2026.02.01-20.10.09:527][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.004475s)
+[2026.02.01-20.10.09:546][445]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.02.01-20.10.09:550][445]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-20.10.09:551][445]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-20.10.09:551][445]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-20.10.09:551][445]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-20.10.09:551][445]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-20.10.09:552][445]LogWorldPartition: Display: WorldPartition initialize took 979 us (total: 440.007 ms)
+[2026.02.01-20.10.09:552][445]LogPlayLevel: PIE: World Init took: (0.002524s)
+[2026.02.01-20.10.09:553][445]LogAudio: Display: Creating Audio Device:                 Id: 125, Scope: Unique, Realtime: True
+[2026.02.01-20.10.09:553][445]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-20.10.09:553][445]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-20.10.09:553][445]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-20.10.09:553][445]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-20.10.09:553][445]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-20.10.09:553][445]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-20.10.09:553][445]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-20.10.09:553][445]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-20.10.09:553][445]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-20.10.09:553][445]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-20.10.09:553][445]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-20.10.09:554][445]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-20.10.09:569][445]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-20.10.09:569][445]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-20.10.09:569][445]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-20.10.09:569][445]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-20.10.09:570][445]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=125
+[2026.02.01-20.10.09:570][445]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=125
+[2026.02.01-20.10.09:572][445]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=125
+[2026.02.01-20.10.09:572][445]LogInit: FAudioDevice initialized with ID 125.
+[2026.02.01-20.10.09:572][445]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=125
+[2026.02.01-20.10.09:572][445]LogAudio: Display: Audio Device (ID: 125) registered with world 'Lvl_TopDown'.
+[2026.02.01-20.10.09:572][445]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 125
+[2026.02.01-20.10.09:576][445]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-20.10.09:577][445]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-15.10.09
+[2026.02.01-20.10.09:577][445]LogWorld: Bringing up level for play took: 0.001370
+[2026.02.01-20.10.09:579][445]LogOnline: OSS: Created online subsystem instance for: :Context_139
+[2026.02.01-20.10.09:581][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:582][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:582][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:583][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:583][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:584][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:584][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:585][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:586][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:586][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:586][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:587][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:587][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:588][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:588][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:589][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:590][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:590][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:591][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:591][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:592][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:592][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:593][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:593][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:594][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:594][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:594][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:596][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:597][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:597][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:598][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:598][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:599][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:599][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:600][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:600][445]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.10.09:604][445]PIE: Server logged in
+[2026.02.01-20.10.09:606][445]PIE: Play in editor total start time 0.084 seconds.
+[2026.02.01-20.10.09:656][446]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-20.10.15:187][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.10.15:187][773]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.10.15:187][773]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-20.10.15:194][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.10.15:194][773]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-20.10.15:198][773]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-20.10.15:201][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.10.15:218][773]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.01-20.10.15:218][773]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 125
+[2026.02.01-20.10.15:219][773]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=125, StreamState=4
+[2026.02.01-20.10.15:220][773]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=125, StreamState=2
+[2026.02.01-20.10.15:223][773]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.10.15:226][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2026.02.01-20.10.15:266][774]LogPlayLevel: Display: Destroying online subsystem :Context_139
+[2026.02.01-20.11.09:516][996]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2026.02.01-20.11.09:554][996]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.11.09:630][996]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-20.11.09:727][996]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-20.11.09:727][996]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-20.11.09:727][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-20.11.09:751][996]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-20.11.09:752][996]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileE0AC145E4B9B92B88F9B08A7C7968A3A.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-20.11.09:770][996]LogFileHelpers: InternalPromptForCheckoutAndSave took 215.926 ms (total: 22.9 sec)
+[2026.02.01-20.11.09:848][996]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.11.09:848][996]LogContentValidation: Enabled validators:
+[2026.02.01-20.11.09:848][996]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.11.09:848][996]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.11.09:848][996]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.11.09:848][996]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.11.09:848][996]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.11.09:848][996]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.11.09:848][996]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-20.11.11:724][104]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-20.11.11:728][104]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-20.11.11:728][104]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-20.11.11:728][104]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 537 us (total: 66.179 ms)
+[2026.02.01-20.11.11:728][104]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-20.11.11:729][104]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.11.11:732][104]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-20.11.11:733][104]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 667 us (total: 86.564 ms)
+[2026.02.01-20.11.11:733][104]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004326s)
+[2026.02.01-20.11.11:733][104]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.004358s)
+[2026.02.01-20.11.11:751][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.02.01-20.11.11:757][104]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-20.11.11:758][104]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-20.11.11:758][104]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-20.11.11:758][104]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-20.11.11:758][104]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-20.11.11:759][104]LogWorldPartition: Display: WorldPartition initialize took 889 us (total: 440.897 ms)
+[2026.02.01-20.11.11:759][104]LogPlayLevel: PIE: World Init took: (0.002305s)
+[2026.02.01-20.11.11:760][104]LogAudio: Display: Creating Audio Device:                 Id: 126, Scope: Unique, Realtime: True
+[2026.02.01-20.11.11:760][104]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-20.11.11:760][104]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-20.11.11:760][104]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-20.11.11:760][104]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-20.11.11:760][104]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-20.11.11:760][104]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-20.11.11:760][104]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-20.11.11:760][104]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-20.11.11:760][104]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-20.11.11:760][104]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-20.11.11:760][104]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-20.11.11:761][104]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-20.11.11:774][104]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-20.11.11:775][104]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-20.11.11:775][104]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-20.11.11:775][104]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-20.11.11:775][104]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=126
+[2026.02.01-20.11.11:775][104]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=126
+[2026.02.01-20.11.11:777][104]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=126
+[2026.02.01-20.11.11:777][104]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=126
+[2026.02.01-20.11.11:777][104]LogInit: FAudioDevice initialized with ID 126.
+[2026.02.01-20.11.11:777][104]LogAudio: Display: Audio Device (ID: 126) registered with world 'Lvl_TopDown'.
+[2026.02.01-20.11.11:777][104]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 126
+[2026.02.01-20.11.11:780][104]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-20.11.11:782][104]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-15.11.11
+[2026.02.01-20.11.11:782][104]LogWorld: Bringing up level for play took: 0.001572
+[2026.02.01-20.11.11:784][104]LogOnline: OSS: Created online subsystem instance for: :Context_140
+[2026.02.01-20.11.11:786][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:786][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:787][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:788][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:788][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:789][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:789][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:790][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:790][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:791][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:791][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:792][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:792][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:793][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:794][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:794][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:795][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:795][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:796][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:796][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:796][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:797][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:797][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:798][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:798][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:799][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:800][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:800][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:801][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:801][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:802][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:802][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:803][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:803][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:804][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:804][104]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.11:808][104]PIE: Server logged in
+[2026.02.01-20.11.11:810][104]PIE: Play in editor total start time 0.081 seconds.
+[2026.02.01-20.11.11:856][105]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-20.11.16:927][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.11.16:927][405]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.11.16:927][405]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-20.11.16:932][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.11.16:932][405]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-20.11.16:936][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-20.11.16:939][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.11.16:959][405]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.01-20.11.16:959][405]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 126
+[2026.02.01-20.11.16:959][405]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=126, StreamState=4
+[2026.02.01-20.11.16:961][405]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=126, StreamState=2
+[2026.02.01-20.11.16:965][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.11.16:968][405]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.02.01-20.11.17:008][406]LogPlayLevel: Display: Destroying online subsystem :Context_140
+[2026.02.01-20.11.17:984][461]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-20.11.17:989][461]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-20.11.17:989][461]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-20.11.17:989][461]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 470 us (total: 66.649 ms)
+[2026.02.01-20.11.17:989][461]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-20.11.17:990][461]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.11.17:993][461]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-20.11.17:993][461]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 653 us (total: 87.217 ms)
+[2026.02.01-20.11.17:993][461]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003907s)
+[2026.02.01-20.11.17:993][461]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.003934s)
+[2026.02.01-20.11.18:011][461]LogUObjectHash: Compacting FUObjectHashTables data took   0.87ms
+[2026.02.01-20.11.18:013][461]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-20.11.18:015][461]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-20.11.18:015][461]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-20.11.18:015][461]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-20.11.18:015][461]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-20.11.18:016][461]LogWorldPartition: Display: WorldPartition initialize took 939 us (total: 441.837 ms)
+[2026.02.01-20.11.18:016][461]LogPlayLevel: PIE: World Init took: (0.002511s)
+[2026.02.01-20.11.18:016][461]LogAudio: Display: Creating Audio Device:                 Id: 127, Scope: Unique, Realtime: True
+[2026.02.01-20.11.18:016][461]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-20.11.18:016][461]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-20.11.18:016][461]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-20.11.18:016][461]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-20.11.18:016][461]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-20.11.18:016][461]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-20.11.18:016][461]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-20.11.18:016][461]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-20.11.18:016][461]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-20.11.18:016][461]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-20.11.18:016][461]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-20.11.18:018][461]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-20.11.18:031][461]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-20.11.18:031][461]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-20.11.18:031][461]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-20.11.18:031][461]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-20.11.18:031][461]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=127
+[2026.02.01-20.11.18:031][461]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=127
+[2026.02.01-20.11.18:034][461]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=127
+[2026.02.01-20.11.18:034][461]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=127
+[2026.02.01-20.11.18:034][461]LogInit: FAudioDevice initialized with ID 127.
+[2026.02.01-20.11.18:034][461]LogAudio: Display: Audio Device (ID: 127) registered with world 'Lvl_TopDown'.
+[2026.02.01-20.11.18:034][461]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 127
+[2026.02.01-20.11.18:036][461]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-20.11.18:038][461]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-15.11.18
+[2026.02.01-20.11.18:038][461]LogWorld: Bringing up level for play took: 0.001353
+[2026.02.01-20.11.18:040][461]LogOnline: OSS: Created online subsystem instance for: :Context_141
+[2026.02.01-20.11.18:041][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:042][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:043][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:043][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:044][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:044][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:044][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:046][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:046][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:047][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:047][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:048][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:049][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:049][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:050][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:050][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:051][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:051][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:052][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:052][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:053][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:053][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:054][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:054][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:055][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:056][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:056][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:056][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:057][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:057][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:058][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:059][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:059][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:060][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:060][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:061][461]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.11.18:064][461]PIE: Server logged in
+[2026.02.01-20.11.18:066][461]PIE: Play in editor total start time 0.078 seconds.
+[2026.02.01-20.11.18:113][462]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-20.11.25:347][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.11.25:347][892]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.11.25:347][892]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-20.11.25:354][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.11.25:354][892]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-20.11.25:358][892]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-20.11.25:361][892]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.11.25:380][892]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.11.25:381][892]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 127
+[2026.02.01-20.11.25:381][892]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=127, StreamState=4
+[2026.02.01-20.11.25:382][892]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=127, StreamState=2
+[2026.02.01-20.11.25:389][892]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.02.01-20.11.25:428][893]LogPlayLevel: Display: Destroying online subsystem :Context_141
+[2026.02.01-20.12.51:143][991]LogBlueprint: Error: [AssetLog] D:\Projects\MaskSelect\MaskSelect\Content\Actors\Tile.uasset: [Compiler] In use pin  Active  no longer exists on node  SetActiveStatus . Please refresh node or break links to remove pin.
+[2026.02.01-20.12.51:188][991]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2026.02.01-20.12.51:208][991]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.12.51:272][991]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-20.12.51:384][991]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-20.12.51:384][991]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-20.12.51:384][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-20.12.51:420][991]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-20.12.51:420][991]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileFC63FDF94D8361E548CFEF9023EFD430.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-20.12.51:420][991]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Actors/Components/BPC_Coin] ([2] browsable assets)...
+[2026.02.01-20.12.51:420][991]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Components/BPC_Coin]
+[2026.02.01-20.12.51:421][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Components/BPC_Coin" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset" SILENT=true
+[2026.02.01-20.12.51:432][991]LogSavePackage: Moving output files for package: /Game/Actors/Components/BPC_Coin
+[2026.02.01-20.12.51:432][991]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/BPC_Coin304CA02B48C910D4400A99B2333AB23A.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Components/BPC_Coin.uasset'
+[2026.02.01-20.12.51:446][991]LogFileHelpers: InternalPromptForCheckoutAndSave took 238.560 ms (total: 23.1 sec)
+[2026.02.01-20.12.51:536][991]LogContentValidation: Display: Starting to validate 2 assets
+[2026.02.01-20.12.51:536][991]LogContentValidation: Enabled validators:
+[2026.02.01-20.12.51:536][991]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.12.51:536][991]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.12.51:536][991]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.12.51:536][991]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.12.51:536][991]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.12.51:536][991]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.12.51:536][991]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-20.12.51:536][991]AssetCheck: /Game/Actors/Components/BPC_Coin Validating asset
+[2026.02.01-20.12.59:495][463]LogBlueprint: Error: [AssetLog] D:\Projects\MaskSelect\MaskSelect\Content\Actors\Tile.uasset: [Compiler] In use pin  Active  no longer exists on node  SetActiveStatus . Please refresh node or break links to remove pin.
+[2026.02.01-20.12.59:535][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.02.01-20.13.05:408][806]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
+[2026.02.01-20.13.05:437][806]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.13.05:521][806]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-20.13.05:572][806]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-20.13.05:572][806]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-20.13.05:572][806]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-20.13.05:595][806]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-20.13.05:596][806]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileBAC18AEC4C8851ECE1385ABC02ECA045.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-20.13.05:604][806]LogFileHelpers: InternalPromptForCheckoutAndSave took 166.185 ms (total: 23.3 sec)
+[2026.02.01-20.13.05:678][806]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.13.05:678][806]LogContentValidation: Enabled validators:
+[2026.02.01-20.13.05:678][806]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.13.05:679][806]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.13.05:679][806]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.13.05:679][806]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.13.05:679][806]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.13.05:679][806]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.13.05:679][806]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-20.13.47:156][230]LogUObjectHash: Compacting FUObjectHashTables data took   0.85ms
+[2026.02.01-20.13.47:192][230]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2026.02.01-20.13.47:264][230]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Actors/Tile] ([2] browsable assets)...
+[2026.02.01-20.13.47:357][230]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Actors/Tile.Tile]
+[2026.02.01-20.13.47:357][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/Actors/Tile]
+[2026.02.01-20.13.47:357][230]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Actors/Tile" FILE="D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset" SILENT=true
+[2026.02.01-20.13.47:383][230]LogSavePackage: Moving output files for package: /Game/Actors/Tile
+[2026.02.01-20.13.47:383][230]LogSavePackage: Moving 'D:/Projects/MaskSelect/MaskSelect/Saved/TileCCBF826D42B6797278E97BA07E4ED758.tmp' to 'D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset'
+[2026.02.01-20.13.47:394][230]LogFileHelpers: InternalPromptForCheckoutAndSave took 201.159 ms (total: 23.5 sec)
+[2026.02.01-20.13.47:478][230]LogContentValidation: Display: Starting to validate 1 assets
+[2026.02.01-20.13.47:478][230]LogContentValidation: Enabled validators:
+[2026.02.01-20.13.47:478][230]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2026.02.01-20.13.47:478][230]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2026.02.01-20.13.47:478][230]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2026.02.01-20.13.47:478][230]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2026.02.01-20.13.47:478][230]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2026.02.01-20.13.47:478][230]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2026.02.01-20.13.47:478][230]AssetCheck: /Game/Actors/Tile Validating asset
+[2026.02.01-20.13.48:787][303]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-20.13.48:791][303]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-20.13.48:791][303]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-20.13.48:792][303]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 457 us (total: 67.106 ms)
+[2026.02.01-20.13.48:792][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-20.13.48:792][303]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.13.48:796][303]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-20.13.48:796][303]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 695 us (total: 87.912 ms)
+[2026.02.01-20.13.48:796][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004001s)
+[2026.02.01-20.13.48:796][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.004028s)
+[2026.02.01-20.13.48:818][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2026.02.01-20.13.48:822][303]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-20.13.48:823][303]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-20.13.48:823][303]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-20.13.48:823][303]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-20.13.48:823][303]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-20.13.48:825][303]LogWorldPartition: Display: WorldPartition initialize took 1.056 ms (total: 442.894 ms)
+[2026.02.01-20.13.48:825][303]LogPlayLevel: PIE: World Init took: (0.002594s)
+[2026.02.01-20.13.48:826][303]LogAudio: Display: Creating Audio Device:                 Id: 128, Scope: Unique, Realtime: True
+[2026.02.01-20.13.48:826][303]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-20.13.48:826][303]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-20.13.48:826][303]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-20.13.48:826][303]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-20.13.48:826][303]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-20.13.48:826][303]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-20.13.48:826][303]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-20.13.48:826][303]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-20.13.48:826][303]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-20.13.48:826][303]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-20.13.48:826][303]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-20.13.48:827][303]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-20.13.48:842][303]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-20.13.48:842][303]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-20.13.48:842][303]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-20.13.48:842][303]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-20.13.48:843][303]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=128
+[2026.02.01-20.13.48:843][303]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=128
+[2026.02.01-20.13.48:845][303]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=128
+[2026.02.01-20.13.48:845][303]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=128
+[2026.02.01-20.13.48:845][303]LogInit: FAudioDevice initialized with ID 128.
+[2026.02.01-20.13.48:845][303]LogAudio: Display: Audio Device (ID: 128) registered with world 'Lvl_TopDown'.
+[2026.02.01-20.13.48:845][303]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 128
+[2026.02.01-20.13.48:848][303]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-20.13.48:850][303]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-15.13.48
+[2026.02.01-20.13.48:850][303]LogWorld: Bringing up level for play took: 0.001376
+[2026.02.01-20.13.48:851][303]LogOnline: OSS: Created online subsystem instance for: :Context_142
+[2026.02.01-20.13.48:853][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:854][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:854][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:856][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:856][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:857][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:857][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:858][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:858][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:859][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:859][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:860][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:860][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:861][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:861][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:862][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:863][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:863][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:864][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:864][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:865][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:865][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:866][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:866][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:866][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:867][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:868][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:869][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:869][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:870][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:870][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:871][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:871][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:872][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:872][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:873][303]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.48:877][303]PIE: Server logged in
+[2026.02.01-20.13.48:879][303]PIE: Play in editor total start time 0.087 seconds.
+[2026.02.01-20.13.48:925][304]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-20.13.54:237][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.13.54:237][619]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.13.54:237][619]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-20.13.54:241][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.13.54:241][619]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-20.13.54:246][619]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-20.13.54:248][619]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.13.54:266][619]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2026.02.01-20.13.54:266][619]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 128
+[2026.02.01-20.13.54:266][619]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=128, StreamState=4
+[2026.02.01-20.13.54:267][619]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=128, StreamState=2
+[2026.02.01-20.13.54:271][619]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.13.54:273][619]LogUObjectHash: Compacting FUObjectHashTables data took   0.88ms
+[2026.02.01-20.13.54:316][620]LogPlayLevel: Display: Destroying online subsystem :Context_142
+[2026.02.01-20.13.55:143][665]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2026.02.01-20.13.55:146][665]LogContentBundle: [Lvl_TopDown(Editor)] Generating Streaming for 0 Content Bundles.
+[2026.02.01-20.13.55:146][665]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' started...
+[2026.02.01-20.13.55:147][665]LogWorldPartition: Display: GenerateStreaming for 'Lvl_TopDown' took 460 us (total: 67.567 ms)
+[2026.02.01-20.13.55:147][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2026.02.01-20.13.55:176][665]LogPlayLevel: Creating play world package: /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.13.55:180][665]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE started...
+[2026.02.01-20.13.55:181][665]LogWorldPartition: Display: UWorldPartition::PostDuplicatePIE took 679 us (total: 88.592 ms)
+[2026.02.01-20.13.55:181][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004551s)
+[2026.02.01-20.13.55:181][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TopDown/Lvl_TopDown.Lvl_TopDown to /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown (0.004590s)
+[2026.02.01-20.13.55:198][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2026.02.01-20.13.55:201][665]LogChaosDD: Creating Chaos Debug Draw Scene for world Lvl_TopDown
+[2026.02.01-20.13.55:202][665]LogWorldPartition: ULevel::OnLevelLoaded(Lvl_TopDown)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2026.02.01-20.13.55:202][665]LogWorldPartition: Display: WorldPartition initialize started...
+[2026.02.01-20.13.55:202][665]LogWorldPartition: UWorldPartition::Initialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2026.02.01-20.13.55:202][665]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2026.02.01-20.13.55:203][665]LogWorldPartition: Display: WorldPartition initialize took 933 us (total: 443.827 ms)
+[2026.02.01-20.13.55:203][665]LogPlayLevel: PIE: World Init took: (0.002472s)
+[2026.02.01-20.13.55:204][665]LogAudio: Display: Creating Audio Device:                 Id: 129, Scope: Unique, Realtime: True
+[2026.02.01-20.13.55:204][665]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2026.02.01-20.13.55:204][665]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2026.02.01-20.13.55:204][665]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2026.02.01-20.13.55:204][665]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2026.02.01-20.13.55:204][665]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2026.02.01-20.13.55:204][665]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2026.02.01-20.13.55:204][665]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2026.02.01-20.13.55:204][665]LogAudio: Display: AudioDevice MaxSources: 32
+[2026.02.01-20.13.55:204][665]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2026.02.01-20.13.55:204][665]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2026.02.01-20.13.55:204][665]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2026.02.01-20.13.55:206][665]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2026.02.01-20.13.55:219][665]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2026.02.01-20.13.55:219][665]LogAudioMixer: Display: Initializing Sound Submixes...
+[2026.02.01-20.13.55:219][665]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2026.02.01-20.13.55:219][665]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2026.02.01-20.13.55:219][665]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=129
+[2026.02.01-20.13.55:220][665]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=129
+[2026.02.01-20.13.55:222][665]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=129
+[2026.02.01-20.13.55:222][665]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=129
+[2026.02.01-20.13.55:222][665]LogInit: FAudioDevice initialized with ID 129.
+[2026.02.01-20.13.55:222][665]LogAudio: Display: Audio Device (ID: 129) registered with world 'Lvl_TopDown'.
+[2026.02.01-20.13.55:222][665]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 129
+[2026.02.01-20.13.55:226][665]LogLoad: Game class is 'BP_TopDownGameMode_C'
+[2026.02.01-20.13.55:227][665]LogWorld: Bringing World /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown up for play (max tick rate 60) at 2026.02.01-15.13.55
+[2026.02.01-20.13.55:227][665]LogWorld: Bringing up level for play took: 0.001546
+[2026.02.01-20.13.55:229][665]LogOnline: OSS: Created online subsystem instance for: :Context_143
+[2026.02.01-20.13.55:231][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:232][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:232][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:233][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:233][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:234][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:234][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:235][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:235][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:236][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:236][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:236][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:237][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:238][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:238][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:239][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:239][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:240][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:240][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:241][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:241][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:242][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:242][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:243][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:243][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:244][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:244][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:244][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:246][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:247][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:247][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:248][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:248][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:249][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:249][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:250][665]LogActor: Loaded Actor (NODE_AddChildActorComponent-1_Tile_C_CAT) with IsValid() == false
+[2026.02.01-20.13.55:253][665]PIE: Server logged in
+[2026.02.01-20.13.55:255][665]PIE: Play in editor total start time 0.108 seconds.
+[2026.02.01-20.13.55:305][666]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2026.02.01-20.14.13:417][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.14.13:417][748]LogWorld: BeginTearingDown for /Game/TopDown/UEDPIE_0_Lvl_TopDown
+[2026.02.01-20.14.13:417][748]LogWorld: UWorld::CleanupWorld for Lvl_TopDown, bSessionEnded=true, bCleanupResources=true
+[2026.02.01-20.14.13:424][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.14.13:424][748]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/TopDown/UEDPIE_0_Lvl_TopDown.Lvl_TopDown
+[2026.02.01-20.14.13:430][748]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2026.02.01-20.14.13:432][748]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2026.02.01-20.14.13:471][748]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2026.02.01-20.14.13:471][748]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 129
+[2026.02.01-20.14.13:471][748]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=129, StreamState=4
+[2026.02.01-20.14.13:473][748]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=129, StreamState=2
+[2026.02.01-20.14.13:480][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2026.02.01-20.14.13:517][749]LogPlayLevel: Display: Destroying online subsystem :Context_143
