@@ -1,0 +1,45 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/BP/BUPDHPEMHC4VKWBMQ8RZHT.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/1/WZ/MPOCSP1DC1C6JZX1F9S0MQ.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Actors/TileManager.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Actors/Tile.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Characters/BP_PlayerCharacter.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/TopDown/Blueprints/BP_TopDownGameMode.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/aPawn.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Interfaces/BPI_Tile.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Essentials/E_TileColorType.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Materials/M_YellowHighlight.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Essentials/E_TileType.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Essentials/S_TileInfo.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Actors/Base_Tile.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Actors/Teleport_Tile.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/QB/XFLIK7TN25RRSECE21WY10.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/2Y/UVL1OZXKG9RW4CLU4D022X.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/OH/Y1ZP20LMYSF59GW0VJUKT3.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/70/4IY5U6C2M9CS24FTWXQG2A.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/8/WB/6PI167HQFE7JE1UDZMWHFU.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/G8/1G76N8INZSWNC9JBWFGS5T.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/KI/GNUED7NTBC01UJ4EWN8QUC.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/D/0S/4A11EC1UENM8M8JJIACAHZ.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/KH/7GTDWI7N5ZI11T3AA05T09.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/85/3H8H2ZO6JAO47GEIWNB0CH.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/E/1Q/9WG5SE1JE1SUO5XE4I9AGE.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/A/JO/GLO2ABVTUH28J249G47PQL.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/NI/ZB07DD47R29CIAJXB4A9CZ.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/2/JT/6RTKM1IDK2VX6N7LO67DC7.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/C/GS/MMNY4288SAVIWGD4PX4WUV.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/B/LT/7MUJ3DERC5YE3W979CGG2U.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/6/H9/DWQ6IMAQDQQW64ESP0GYUM.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/__ExternalActors__/TopDown/Lvl_TopDown/3/D9/LS6O3DYAW34V6ZX0GD6PKH.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Interfaces/BPI_MainActor.uasset",
+				"D:/Projects/MaskSelect/MaskSelect/Content/Materials/M_Highlight.uasset"
+			]
+		}
+	]
+}
